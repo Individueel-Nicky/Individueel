@@ -3,3 +3,4 @@
 ## My Deployed Website
 - Vercel: https://nickster.vercel.app/
 - Git Repository: https://github.com/nickybreezy/Nickster
+- Research Report: https://github.com/nickybreezy/Nickster/blob/main/researchreport.md
