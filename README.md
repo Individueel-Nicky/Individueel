@@ -8,7 +8,7 @@ Teachers: Samuil Angelov and Jean Paul Ligthart
 - Git Repository: https://github.com/nickybreezy/Nickster
 - Research Report: https://github.com/nickybreezy/Nickster/blob/main/researchreport.md
 ---
-
+## Table of contents
 - [1. Introduction](#1-introduction)
 - [2. Learning Outcomes](#2-learning-outcomes)
 - [3. Research](#3-research)
@@ -16,13 +16,12 @@ Teachers: Samuil Angelov and Jean Paul Ligthart
   - [3.2. Ethics](#32-ethics)
   - [3.3. Agile methods](#33-agile-methods)
   - [3.4. Business processes](#34-business-processes)
-  - [3.5. Security Risk: Insecure Design](#35-security-risk-code-injection)
-  - [3.6. Optimizing for Outsourcing](#36-optimizing-for-outsourcing)
-- [4. Individual Project (Nickster)](#4-individual-project-collecticats)
+  - [3.5. Security Risk: Insecure Design](#35-security-risk-)
+- [4. Individual Project (Nickster)](#4-individual-project-)
   - [4.1. Software design](#41-software-design)
   - [4.2. CI/CD](#42-cicd)
   - [4.3. Software Quality](#43-software-quality)
-- [5. Group Project (The Parking Pals)](#5-group-project-eeventify)
+- [5. Group Project (The Parking Pals)](#5-group-project-)
   - [5.1. Software design](#51-software-design)
   - [5.2. CI/CD](#52-cicd)
   - [5.3. Software quality](#53-software-quality)
@@ -51,16 +50,18 @@ Welcome to my software development portfolio! I'm currently in my third semester
 | 7 | Business processes | You analyze and describe **simple** business processes that are **related** to your project. | **Simple:** Involving stakeholders, predominantly sequential processes with one or two alternative paths.<br>**Related:** Business processes during which the software that you are developing will be used (business processes that the software must support by fully or partially automating them).<br>**or**<br>Business processes needed for the success of your software development project (e.g., product release, market release, financial assurance). |
 | 8 | Professional | You act in a **professional manner** during software development and learning. | **Professional manner:** You develop software as a team effort according to a prescribed software methodology and following team agreements. You are able to track your work progress and communicate your progress with the team.<br>You actively ask and apply feedback from stakeholders and advise them on the most optimal technical and design (architectural) solutions. You choose and substantiate solutions for a given problem. |
 
+[⬆️ Back to Table of Contents](#table-of-contents)
+
 ## 3. Research
 Throughout the semester, I delved into various areas of study including new technologies, business processes and methods, cultural differences, ethics, security risks, and prevention methods. Additionally, I emphasized the significance of well-documented projects. My research findings have been compiled into research reports which are available below. By being well-versed in these areas of study and having the ability to conduct research on new subjects, I am able to showcase my mastery of learning outcome 8: Professional.
 
 
-### 3.1. Cultural differences
+## 3.1. Cultural differences
 
-## 1. Introduction
+### 1. Introduction
 Every software engineer must work with others during their career life. Developing strong communication skills is crucial for preventing miscommunications and errors in business operations with different cultures. Effective communication involves active listening, clear articulation of ideas, and adjusting communication style according to the audience. Practicing and refining these skills can enhance an individual's ability to communicate effectively in professional settings and prevent potential mistakes. 
 
-## 2. What is culture?
+### 2. What is culture?
 
 In the IT world, culture refers to the shared values, beliefs, attitudes, and behaviors that shape the organization's approach to technology and its use. It encompasses factors such as the organization's approach to innovation, collaboration, risk-taking, and adaptability. IT culture can impact the effectiveness and efficiency of technology initiatives and shape the attitudes and behaviors of employees toward technology adoption and use.
 
@@ -83,6 +84,8 @@ As a software engineer, I tried as much as possible to implement the following e
 7. Continuous learning and improvement: Stay current with new technologies and best practices in software development, and strive to continuously improve your skills and knowledge.
 
 It is still important to remember that ethics in software engineering is an ongoing process, and engineers should be constantly evaluating and re-evaluating their decisions to ensure that they match with the current ethical principles.
+
+[⬆️ Back to Table of Contents](#table-of-contents)
 
 ## 4. Personal experiences with cultural differences
 
@@ -109,3 +112,26 @@ As a software engineer, I tried as much as possible to implement the following e
 7. Continuous learning and improvement: Stay current with new technologies and best practices in software development, and strive to continuously improve your skills and knowledge.
 
 It is still important to remember that ethics in software engineering is an ongoing process, and engineers should be constantly evaluating and re-evaluating their decisions to ensure that they match with the current ethical principles.
+
+### Why are ethics important in software engineering?
+Software engineering ethics are essential for many reasons. As software engineers have a significant impact on people's lives, users must trust that the software they use is reliable, safe, and secure. Adhering to ethical principles is crucial as it builds trust and credibility with users and stakeholders, and the lack of it could lead to legal and financial consequences. Ethical considerations help software engineers make responsible decisions that minimize harm to users or society. In addition, ethical software engineering practices ensure that software has a positive impact on society and the environment. Ultimately, upholding ethics is a crucial element of professionalism that helps to guarantee software's safety, reliability, and trustworthiness, which in turn contributes to the betterment of society.
+
+### What do you have to do as a software engineer to address ethical aspects in your work?
+As a software engineer, addressing ethical aspects in your work requires several steps. Firstly, you must educate yourself on ethical issues related to software engineering such as algorithmic bias, data privacy, and cybersecurity. Secondly, consider the potential impacts of your work on different stakeholders, including end-users, society, and the environment. You must also follow ethical design principles and ensure that your software respects user privacy, ensures fairness, and non-discrimination. Thirdly, participate in ethical discussions with colleagues and stakeholders to raise concerns and collaborate on ethical solutions. Finally, if you become aware of any ethical concerns related to your work, take responsibility for addressing them by reporting them to relevant authorities and working to find ethical solutions. By following these steps, you can address ethical aspects in your work and ensure that your software development process is ethical and responsible.
+
+## 2. Ethics analysis for group project
+>iets hier schrijven over dat we de boven aspecten toegoevoegd hebben in ons project.waar het project ethisch voor bedoeld is.
+
+>vertel hier wat voor data we van ons gebruikers verzamelen en of we hun probert zo secure mogelijk te blijven en wat voor authentication (tokens) we stellen
+
+>vertel hier hoe we alles testen met disrupties, wat ons ci/cd pipeline is en hoe toegankelijk onze code is evt. 
+
+[⬆️ Back to Table of Contents](#table-of-contents)
+
+### 2.1 Ethical conflicts & soltions
+Ethical conflicts for The Parking Pals may occur in a few occasions. The most important one, is when the user is obligated to give their license plate number so that it can be registered in the system. Nevertheless, this information is considered to be sensitive personal data, and it would therefore be very important to handle this information carefully and securely so as not to risk the privacy of our users. VUL OPLOSSING HIER
+
+>talk about another conflict, eg when a user doesnt actually go to the space they reserved for, 
+
+### 3. Ethics analysis for individual project
+> hetzelfde als voor groep
