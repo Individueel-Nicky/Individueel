@@ -201,3 +201,39 @@ Scrum project management is an Agile method that focuses on ordering tasks to co
 
 #### For my individual project
 Personally I have only worked with Scrum and I kept finding it the most compatible to my work processes. I used a simple board project from GitHub to accomplish this.
+
+## 5. Group Project (The Parking Pals)
+>insert logo here
+
+A company that owns parking garages gets a lot of complaints about the malfunctioning of the ticket machines. They also receive complaints about the queue being too long for machines, so you must wait a long time to pay. The client wishes for a solution to their previously mentioned problem. The preferred solution would make it so that the driver of the vehicle can drive into the parking garage without having to stand still. This would be possible by registering the license plate of the vehicle. The driver would then be able to pay via his/her mobile device so that they can leave the garage. It would reduce the amount of time a driver takes to park his/her vehicle in the garage and the same applies to leaving the garage. This would allow an increased traffic flow in and out of the garage and would therefore allow for an increased revenue stream. It would also provide a more convenient solution for the driver, which would result in a better reputation compared to alternative parking solutions. 
+
+[Azure DevOps for the process](https://dev.azure.com/parking-pals/Parking%20Pals%20App/_sprints/taskboard/Parking%20Pals%20App%20Team/Parking%20Pals%20App/)
+
+>add a gif quickly showing the website
+
+### 5.1 Strategy
+At first, we took in consideration what kind of customers will be using our application and asked ourselves two questions, “Do our customers want to decide what gets done and when?” and the answer to that is that their choice should be somewhat flexible. Following that the next aspect we investigated was how often the team want to review tasks and plan the project further, we concluded that every two weeks at most would be the best also seeing that Scrum is a method all of us have used before. So, the conclusion was that the Scrum method had our best interest. 
+Scrum project management is an Agile method that focuses on ordering tasks to complete projects more quickly while Kanban is primarily more focused on process improvements. 
+
+### 5.2 Design choice
+- Front end, React  
+
+For the learning outcomes, it is specified that we use a JavaScript front-end framework. We chose React since we already have some experience with React. It has a wide range of documentation and many job opportunities, as it is a very popular framework now. 
+
+- Back end, C# Asp.net 
+
+Because we worked previously with C#, and because C# outperforms Java while having the same functionalities. We have selected C# Asp.net 
+
+### 5.3 Software Design
+
+#### Software Architecture
+<p align="center">
+  <img src="[https://th.bing.com/th/id/R.3896712f25b01b9a774a1d62798d4616?rik=hYV21pkHGoBYDg&riu=http%3a%2f%2fprojektwelten.projectplant.de%2fwp-content%2fuploads%2f2016%2f07%2fProjectPlant_ScrumMethode_Ueberblick.jpg&ehk=CWYVNaQXNpwqRs%2fRcabXxRcRU3lktrbwjrkjc3vB8So%3d&risl=&pid=ImgRaw&r=0](https://camo.githubusercontent.com/966bcef2778f624c6fc5ef8b7c2a7f5c6f11a2defb1c70ae7e7357f47777dd99/68747470733a2f2f692e6962622e636f2f734372364d68672f636f6e7461696e65722d6d6f64656c2e706e67)" width="300" alt="Architecture Design">
+</p>
+
+The Parking Pal application has been set up as a microservices architecture. This means the application is comprised of building a server application as a set of small services. Advantages of this approach are that it improves maintainability and testability, is independently deployable and scalable and it facilitates easy integration of multiple technologies. Communication between front-end and back-end will be performed through REST and WebSocket protocols.
+As to be seen in the image, it has a lot of services, each to have their own api to easily have the CRUD operations.
+
+Each service has its own database and if it needs data from outside its domain to perform its function, it will contact the relevant service through the API gateway and request the needed data from the service that contains it. We have tried to minimize these dependencies in order to keep the different services as independent of each other as possible. In case the client application needs to collect data from the different domains it can contact each service separately to request the required data, combine it, and display it to the user.
+
+> Add the configured/latest architecture at the end of the project when everything is done 
