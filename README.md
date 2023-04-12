@@ -200,3 +200,4 @@ Scrum (vs other methodologies)
 Scrum project management is an Agile method that focuses on ordering tasks to complete projects more quickly while Kanban is primarily more focused on process improvements. 
 
 #### For my individual project
+Personally I have only worked with Scrum and I kept finding it the most compatible to my work processes. I used a simple board project from GitHub to accomplish this.
