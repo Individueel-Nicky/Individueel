@@ -135,3 +135,13 @@ Ethical conflicts for The Parking Pals may occur in a few occasions. The most im
 
 ### 3. Ethics analysis for individual project
 > hetzelfde als voor groep
+
+
+### 3.3. Agile methods
+
+#### For the group project
+At first, we took in consideration what kind of customers will be using our application and asked ourselves two questions, “Do our customers want to decide what gets done and when?” and the answer to that is that their choice should be somewhat flexible. Following that the next aspect we investigated was how often the team want to review tasks and plan the project further, we concluded that every two weeks at most would be the best also seeing that Scrum is a method all of us have used before. So, the conclusion was that the Scrum method had our best interest. 
+
+Scrum (vs other methodologies) 
+
+Scrum project management is an Agile method that focuses on ordering tasks to complete projects more quickly while Kanban is primarily more focused on process improvements. 
