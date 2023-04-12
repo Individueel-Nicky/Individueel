@@ -139,6 +139,60 @@ Ethical conflicts for The Parking Pals may occur in a few occasions. The most im
 
 ### 3.3. Agile methods
 
+#### What is Agile?
+Agile is a term that describes approaches to software development that emphasize incremental delivery, team collaboration, continual planning, and continual learning. The different methodologies are used to establish different principles to guide a better approach to software development.
+
+1. Customer satisfaction: Agile focuses on delivering value to the customer, and customer satisfaction is a top priority.
+
+2. Flexibility: Agile methodologies prioritize flexibility and adaptability to change, which is achieved through an iterative approach to development.
+
+3. Collaboration: Agile encourages close collaboration among team members, customers, and stakeholders, with a focus on open communication and collaboration.
+
+4. Continuous improvement: Agile methodologies prioritize continuous improvement through regular reviews and retrospectives to identify areas for improvement.
+
+5. Transparency: Agile encourages transparency in all aspects of development, with an emphasis on open communication and clear documentation.
+
+6. Iterative development: Agile methodologies are based on an iterative approach to development, with frequent feedback and testing to ensure that the product meets the customer's needs.
+
+7. Self-organizing teams: Agile methodologies rely on self-organizing teams that are empowered to make decisions and collaborate to achieve their goals.
+
+#### Scrum
+Scrum is a popular Agile methodology used for software development and project management. It has become widely adopted because it offers several advantages over other methodologies. Some reasons why Scrum is considered better than others are:
+
+    Flexibility: Scrum provides a high degree of flexibility in adapting to changing requirements, and the ability to respond quickly to customer needs.
+
+    Transparency: Scrum emphasizes transparency, making progress visible to everyone involved in the project, including stakeholders and customers.
+
+    Continuous Improvement: Scrum encourages continuous improvement by reviewing progress regularly and adapting the development approach accordingly.
+
+    Focus on teamwork: Scrum is built on the principle of teamwork, with a focus on empowering teams to make decisions, collaborate, and achieve their goals.
+
+    Efficient project management: Scrum offers a structured approach to project management, with clear roles and responsibilities for team members, regular meetings, and clear goals.
+
+    Faster Time-to-Market: Scrum's iterative approach to development enables teams to deliver working software in short iterations, which can help bring products to market faster.
+
+However, it is important to note that Scrum may not be the best fit for every project. Each methodology has its own strengths and weaknesses, and the choice of methodology should be based on the specific requirements and characteristics of the project.
+
+<p align="center">
+  <img src="https://th.bing.com/th/id/R.3896712f25b01b9a774a1d62798d4616?rik=hYV21pkHGoBYDg&riu=http%3a%2f%2fprojektwelten.projectplant.de%2fwp-content%2fuploads%2f2016%2f07%2fProjectPlant_ScrumMethode_Ueberblick.jpg&ehk=CWYVNaQXNpwqRs%2fRcabXxRcRU3lktrbwjrkjc3vB8So%3d&risl=&pid=ImgRaw&r=0" width="300" alt="Scrum">
+</p>
+
+
+#### Kanban
+Kanban and Scrum are both popular Agile methodologies used for software development and project management. Each methodology has its own strengths and weaknesses, and the choice of methodology should be based on the specific requirements and characteristics of the project. Here are some reasons why Kanban may be considered better than Scrum in certain situations:
+
+    Flexibility: Kanban offers a high degree of flexibility, allowing teams to make changes and adjustments to the process as needed.
+
+    Focus on Flow: Kanban is focused on optimizing the flow of work through the system, which can help identify bottlenecks and areas for improvement.
+
+    Reduced waste: Kanban emphasizes reducing waste in the system, which can help teams be more efficient and reduce costs.
+
+    Minimal overhead: Kanban has minimal overhead, which can be advantageous for small teams or projects with low complexity.
+
+    Continuous delivery: Kanban enables continuous delivery by allowing teams to release features as soon as they are ready, which can help bring products to market faster.
+
+However, it is important to note that Scrum may be a better fit for projects that require more structure, regularity, and predictability. Scrum has a more defined framework and provides a clear set of roles, events, and artifacts, which can be advantageous for larger or more complex projects. Ultimately, the choice of methodology should be based on the specific needs and goals of the project, as well as the preferences and capabilities of the team.
+
 #### For the group project
 At first, we took in consideration what kind of customers will be using our application and asked ourselves two questions, “Do our customers want to decide what gets done and when?” and the answer to that is that their choice should be somewhat flexible. Following that the next aspect we investigated was how often the team want to review tasks and plan the project further, we concluded that every two weeks at most would be the best also seeing that Scrum is a method all of us have used before. So, the conclusion was that the Scrum method had our best interest. 
 
