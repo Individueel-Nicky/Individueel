@@ -157,11 +157,9 @@ Agile is a term that describes approaches to software development that emphasize
 7. Self-organizing teams: Agile methodologies rely on self-organizing teams that are empowered to make decisions and collaborate to achieve their goals.
 
 #### Scrum
-Scrum is a popular Agile methodology used for software development and project management. It has become widely adopted because it offers several advantages over other methodologies. Some reasons why Scrum is considered better than others are:
+Scrum is a popular Agile methodology used for software development and project management. It has become widely adopted because it offers several advantages over other methodologies. Scrum is mostly considered 'better' for the cause that it is way more flexible in adapting to changing requirements, and the ability to respond quickly to customer needs.
+Secondly it also is very 'handy' because it makes sure both the customers and stakeholders are involved in the project. 
 
-    Flexibility: Scrum provides a high degree of flexibility in adapting to changing requirements, and the ability to respond quickly to customer needs.
-
-    Transparency: Scrum emphasizes transparency, making progress visible to everyone involved in the project, including stakeholders and customers.
 
     Continuous Improvement: Scrum encourages continuous improvement by reviewing progress regularly and adapting the development approach accordingly.
 
