@@ -158,10 +158,9 @@ Agile is a term that describes approaches to software development that emphasize
 
 #### Scrum
 Scrum is a popular Agile methodology used for software development and project management. It has become widely adopted because it offers several advantages over other methodologies. Scrum is mostly considered 'better' for the cause that it is way more flexible in adapting to changing requirements, and the ability to respond quickly to customer needs.
-Secondly it also is very 'handy' because it makes sure both the customers and stakeholders are involved in the project. 
+Secondly it also is very convenient because it makes sure both the customers and stakeholders are involved in the project. 
 Scrum is really focused on continuously improving, they do this by always making sure they review progress regularly and changing the approach if needed.
-
-    Focus on teamwork: Scrum is built on the principle of teamwork, with a focus on empowering teams to make decisions, collaborate, and achieve their goals.
+Furthermore they are deeply focused on teamwork and giving the members the power to make their own paths to achieve their goals.
 
     Efficient project management: Scrum offers a structured approach to project management, with clear roles and responsibilities for team members, regular meetings, and clear goals.
 
