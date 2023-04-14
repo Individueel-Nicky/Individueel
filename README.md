@@ -136,6 +136,8 @@ Agile is a term that describes approaches to software development that emphasize
 
 7. Self-organizing teams: Agile methodologies rely on self-organizing teams that are empowered to make decisions and collaborate to achieve their goals.
 
+[⬆️ Back to Table of Contents](#table-of-contents)
+
 ### 3.3.2 Scrum
 Scrum is a popular Agile methodology used for software development and project management. It has become widely adopted because it offers several advantages over other methodologies. Scrum is mostly considered 'better' for the cause that it is way more flexible in adapting to changing requirements, and the ability to respond quickly to customer needs.
 Secondly it also is very convenient because it makes sure both the customers and stakeholders are involved in the project. 
@@ -152,6 +154,8 @@ However, it is important to note that Scrum may not be the best fit for every pr
   <img src="https://th.bing.com/th/id/R.3896712f25b01b9a774a1d62798d4616?rik=hYV21pkHGoBYDg&riu=http%3a%2f%2fprojektwelten.projectplant.de%2fwp-content%2fuploads%2f2016%2f07%2fProjectPlant_ScrumMethode_Ueberblick.jpg&ehk=CWYVNaQXNpwqRs%2fRcabXxRcRU3lktrbwjrkjc3vB8So%3d&risl=&pid=ImgRaw&r=0" width="300" alt="Scrum">
 </p>
 
+
+[⬆️ Back to Table of Contents](#table-of-contents)
 
 ### 3.3.3 Kanban
 Kanban and Scrum are both popular Agile methodologies used for software development and project management. Each methodology has its own strengths and weaknesses, and the choice of methodology should be based on the specific requirements and characteristics of the project. Here are some reasons why Kanban may be considered better than Scrum in certain situations:
@@ -171,6 +175,8 @@ However, it is important to note that Scrum may be a better fit for projects tha
 ### 3.3.4 For the group project
 At first, we took in consideration what kind of customers will be using our application and asked ourselves two questions, “Do our customers want to decide what gets done and when?” and the answer to that is that their choice should be somewhat flexible. Following that the next aspect we investigated was how often the team want to review tasks and plan the project further, we concluded that every two weeks at most would be the best also seeing that Scrum is a method all of us have used before. So, the conclusion was that the Scrum method had our best interest. 
 
+[⬆️ Back to Table of Contents](#table-of-contents)
+
 Scrum (vs other methodologies) 
 Scrum project management is an Agile method that focuses on ordering tasks to complete projects more quickly while Kanban is primarily more focused on process improvements. 
 
@@ -185,6 +191,8 @@ A company that owns parking garages gets a lot of complaints about the malfuncti
 [Azure DevOps for the process](https://dev.azure.com/parking-pals/Parking%20Pals%20App/_sprints/taskboard/Parking%20Pals%20App%20Team/Parking%20Pals%20App/)
 
 >add a gif quickly showing the website
+
+[⬆️ Back to Table of Contents](#table-of-contents)
 
 ### 4.1 Strategy
 At first, we took in consideration what kind of customers will be using our application and asked ourselves two questions, “Do our customers want to decide what gets done and when?” and the answer to that is that their choice should be somewhat flexible. Following that the next aspect we investigated was how often the team want to review tasks and plan the project further, we concluded that every two weeks at most would be the best also seeing that Scrum is a method all of us have used before. So, the conclusion was that the Scrum method had our best interest. 
@@ -202,12 +210,12 @@ Because we worked previously with C#, and because C# outperforms Java while havi
 ### 4.3 Software Design
 
 ### 4.4 Software Architecture
-<p align="center">
-  <img src="[https://th.bing.com/th/id/R.3896712f25b01b9a774a1d62798d4616?rik=hYV21pkHGoBYDg&riu=http%3a%2f%2fprojektwelten.projectplant.de%2fwp-content%2fuploads%2f2016%2f07%2fProjectPlant_ScrumMethode_Ueberblick.jpg&ehk=CWYVNaQXNpwqRs%2fRcabXxRcRU3lktrbwjrkjc3vB8So%3d&risl=&pid=ImgRaw&r=0](https://camo.githubusercontent.com/966bcef2778f624c6fc5ef8b7c2a7f5c6f11a2defb1c70ae7e7357f47777dd99/68747470733a2f2f692e6962622e636f2f734372364d68672f636f6e7461696e65722d6d6f64656c2e706e67)" width="300" alt="Architecture Design">
-</p>
+![Alt text](https://camo.githubusercontent.com/966bcef2778f624c6fc5ef8b7c2a7f5c6f11a2defb1c70ae7e7357f47777dd99/68747470733a2f2f692e6962622e636f2f734372364d68672f636f6e7461696e65722d6d6f64656c2e706e67)
 
 The Parking Pal application has been set up as a microservices architecture. This means the application is comprised of building a server application as a set of small services. Advantages of this approach are that it improves maintainability and testability, is independently deployable and scalable and it facilitates easy integration of multiple technologies. Communication between front-end and back-end will be performed through REST and WebSocket protocols.
 As to be seen in the image, it has a lot of services, each to have their own api to easily have the CRUD operations.
+
+[⬆️ Back to Table of Contents](#table-of-contents)
 
 Each service has its own database and if it needs data from outside its domain to perform its function, it will contact the relevant service through the API gateway and request the needed data from the service that contains it. We have tried to minimize these dependencies in order to keep the different services as independent of each other as possible. In case the client application needs to collect data from the different domains it can contact each service separately to request the required data, combine it, and display it to the user.
 
