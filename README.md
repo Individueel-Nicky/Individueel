@@ -183,6 +183,32 @@ Scrum project management is an Agile method that focuses on ordering tasks to co
 ### 3.3.5 For my individual project
 Personally I have only worked with Scrum and I kept finding it the most compatible to my work processes. I used a simple board project from GitHub to accomplish this.
 
+## 3.4. Business processes
+
+### 3.4.1 Introduction
+Business processes refers to a series of interconnected tasks or activities that are designed to achieve a specific business goal using technology. It involves the use of various software, hardware, and networks to automate, optimize, test and streamline business operations.
+In conclusion, it plays a crucial role in defining, executing, and managing business processes, and businesses need to leverage technology to stay competitive and efficient in today's fast-paced digital economy.
+
+### 3.4.2 The role of software applications in business processes
+The role of software applications in business processes is significant and diverse. Here are some of the ways software applications contribute to business processes:
+
+  - Automation: Software applications can automate repetitive and time-consuming tasks, such as data entry, document processing, and report generation. This frees up time and resources, allowing employees to focus on higher-level tasks.
+
+ -  Efficiency: Software applications can improve the efficiency of business processes by reducing errors and delays. For example, a customer relationship management (CRM) system can help sales teams manage customer interactions, track leads, and close deals more efficiently.
+
+ - Integration: Software applications can integrate with other systems and applications to create a seamless flow of information and data across different departments and functions. This improves collaboration and reduces duplication of effort.
+
+ - Data analytics: Software applications can provide insights into business processes through data analytics. This allows organizations to identify areas for improvement and make data-driven decisions.
+
+ - Compliance: Software applications can help organizations comply with regulatory requirements by automating compliance processes and ensuring data accuracy and security.
+
+In short, software applications play a crucial role in business processes, and organizations need to carefully select and implement the right software solutions to achieve their business goals and stay competitive in today's digital economy.
+
+### 3.4.3 Examples of business processes
+> add business process of project after done with testing
+
+[⬆️ Back to Table of Contents](#table-of-contents)
+
 ## 4. Group Project (The Parking Pals)
 >insert logo here
 
