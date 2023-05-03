@@ -130,7 +130,7 @@ No unnecessary data is collected from our users, and the data that does get coll
 
 Our services are regularly and automatically tested, so that we can respond to any disruptions quickly. And a CI/CD pipeline has been established so that new features, bugfixes, and changes to documentation are brought online almost instantly. We hope this contributes to a good quality product for our users. All of our code is publicly available for everyone to inspect, improve, or to suggest ideas for improvement.
 
-![TICT](../)  
+![TICT](./tictcanvas.png)  
 
 [⬆️ Back to Table of Contents](#table-of-contents)
 
