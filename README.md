@@ -123,7 +123,6 @@ Software engineering ethics are essential for many reasons. As software engineer
 As a software engineer, addressing ethical aspects in your work requires several steps. Firstly, you must educate yourself on ethical issues related to software engineering such as algorithmic bias, data privacy, and cybersecurity. Secondly, consider the potential impacts of your work on different stakeholders, including end-users, society, and the environment. You must also follow ethical design principles and ensure that your software respects user privacy, ensures fairness, and non-discrimination. Thirdly, participate in ethical discussions with colleagues and stakeholders to raise concerns and collaborate on ethical solutions. Finally, if you become aware of any ethical concerns related to your work, take responsibility for addressing them by reporting them to relevant authorities and working to find ethical solutions. By following these steps, you can address ethical aspects in your work and ensure that your software development process is ethical and responsible.
 
 ### 3.2.4 Ethics analysis for group project
->iets hier schrijven over dat we de boven aspecten toegoevoegd hebben in ons project. waar het project ethisch voor bedoeld is.
 
 While developing our group project (The Parking Pals, a Q-Park remake app where you can reserve a parking space upfront), we as a team have taken into account several of the ethical aspects discussed above. The application is designed and developed to help fulfil the need that a lot of driver have a lot of trouble with parking, reserving a spot and paying and on the other hand, the administratos have it quite intricate to keep it all maintaned and managed. At the moment it is not very easy to do these things, and people might feel more frustrated as a result. We hope that our application makes this process easier and leads to happier and more fulfilling lives.
 No unnecessary data is collected from our users, and the data that does get collected we have tried to secure to the best of our ability within the time and knowledge constraints. Drivers must login using their google accounts using a secure OAuth connection.
@@ -137,7 +136,6 @@ Our services are regularly and automatically tested, so that we can respond to a
 ### 3.2.5 Ethical conflicts & soltions
 Ethical conflicts for The Parking Pals may occur in a few occasions. The most important one, is when the user is obligated to give their license plate number so that it can be registered in the system. Nevertheless, this information is considered to be sensitive personal data, and it would therefore be very important to handle this information carefully and securely so as not to risk the privacy of our users. VUL OPLOSSING HIER
 
->talk about another conflict, eg when a user doesnt actually go to the space they reserved for, 
 
 ### 3.2.6 Ethics analysis for individual project
 > hetzelfde als voor groep
@@ -170,9 +168,9 @@ Secondly it also is very convenient because it makes sure both the customers and
 Scrum is really focused on continuously improving, they do this by always making sure they review progress regularly and changing the approach if needed.
 Furthermore they are deeply focused on teamwork and giving the members the power to make their own paths to achieve their goals.
 
-    Efficient project management: Scrum offers a structured approach to project management, with clear roles and responsibilities for team members, regular meetings, and clear goals.
+Efficient project management: Scrum offers a structured approach to project management, with clear roles and responsibilities for team members, regular meetings, and clear goals.
 
-    Faster Time-to-Market: Scrum's iterative approach to development enables teams to deliver working software in short iterations, which can help bring products to market faster.
+Faster Time-to-Market: Scrum's iterative approach to development enables teams to deliver working software in short iterations, which can help bring products to market faster.
 
 However, it is important to note that Scrum may not be the best fit for every project. Each methodology has its own strengths and weaknesses, and the choice of methodology should be based on the specific requirements and characteristics of the project.
 
@@ -186,15 +184,15 @@ However, it is important to note that Scrum may not be the best fit for every pr
 ### 3.3.3 Kanban
 Kanban and Scrum are both popular Agile methodologies used for software development and project management. Each methodology has its own strengths and weaknesses, and the choice of methodology should be based on the specific requirements and characteristics of the project. Here are some reasons why Kanban may be considered better than Scrum in certain situations:
 
-    Flexibility: Kanban offers a high degree of flexibility, allowing teams to make changes and adjustments to the process as needed.
+Flexibility: Kanban offers a high degree of flexibility, allowing teams to make changes and adjustments to the process as needed.
 
-    Focus on Flow: Kanban is focused on optimizing the flow of work through the system, which can help identify bottlenecks and areas for improvement.
+Focus on Flow: Kanban is focused on optimizing the flow of work through the system, which can help identify bottlenecks and areas for improvement.
 
-    Reduced waste: Kanban emphasizes reducing waste in the system, which can help teams be more efficient and reduce costs.
+Reduced waste: Kanban emphasizes reducing waste in the system, which can help teams be more efficient and reduce costs.
 
-    Minimal overhead: Kanban has minimal overhead, which can be advantageous for small teams or projects with low complexity.
+Minimal overhead: Kanban has minimal overhead, which can be advantageous for small teams or projects with low complexity.
 
-    Continuous delivery: Kanban enables continuous delivery by allowing teams to release features as soon as they are ready, which can help bring products to market faster.
+Continuous delivery: Kanban enables continuous delivery by allowing teams to release features as soon as they are ready, which can help bring products to market faster.
 
 However, it is important to note that Scrum may be a better fit for projects that require more structure, regularity, and predictability. Scrum has a more defined framework and provides a clear set of roles, events, and artifacts, which can be advantageous for larger or more complex projects. Ultimately, the choice of methodology should be based on the specific needs and goals of the project, as well as the preferences and capabilities of the team.
 
@@ -231,7 +229,7 @@ The role of software applications in business processes is significant and diver
 In short, software applications play a crucial role in business processes, and organizations need to carefully select and implement the right software solutions to achieve their business goals and stay competitive in today's digital economy.
 
 ### 3.4.3 Examples of business processes
-> add business process of project after done with testing
+add business process of project after done with testing
 
 [⬆️ Back to Table of Contents](#table-of-contents)
 
