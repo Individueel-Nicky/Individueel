@@ -64,10 +64,33 @@ Every software engineer must work with others during their career life. Developi
 
 In the IT world, culture refers to the shared values, beliefs, attitudes, and behaviors that shape the organization's approach to technology and its use. It encompasses factors such as the organization's approach to innovation, collaboration, risk-taking, and adaptability. IT culture can impact the effectiveness and efficiency of technology initiatives and shape the attitudes and behaviors of employees toward technology adoption and use.
 
-### 3.1.3. Personal experiences with cultural differences
+### 3.1.3. Which are well-known dimensions on cultural differences?
+
+There are several dimensions of cultural differences that have been identified in the field of intercultural communication. Such as:
+
+1. Individualism vs. Collectivism: This dimension refers to the extent to which individuals in a culture prioritize their own goals and needs over those of the group.
+
+2. Power Distance: This dimension refers to the extent to which individuals in a culture accept and expect power and authority to be distributed unequally.
+
+3. Masculinity vs. Femininity: This dimension refers to the extent to which a culture values traditionally "masculine" traits (such as assertiveness and competitiveness) versus traditionally "feminine" traits (such as nurturing and cooperation).
+
+4. Uncertainty Avoidance: This dimension refers to the extent to which individuals in a culture are comfortable with ambiguity and uncertainty.
+
+5. Long-term vs. Short-term Orientation: This dimension refers to the extent to which a culture values long-term planning and goals versus short-term gratification and instant results.
+
+6. Indulgence vs. restraint: expresses the level of cultural approval for fulfillment of life and happiness. 
+
+<p align="center">
+  <img src="https://th.bing.com/th/id/OIP.zsdh1fNYDfej8H2BSWQVxQHaHo?pid=ImgDet&rs=1" width="300" alt="Hofstede's Cultural Dimensions">
+</p>
+
+These dimensions can help us better understand and navigate cultural differences, but it's important to remember that they are not absolutes and that individuals within a culture may vary in their attitudes and behaviors.
+
+### 3.1.4. Personal experiences with cultural differences
 
 During my first try at the first semester, I had chosen to enroll it in "Course-Based", which therefore meant that I would communicate with different types of cultured students and teachers. 
 The aspect which stood out the most was the way we would work on a project, I had mostly dealt with East European students. Most of them had a determined way of doing things their way or it was harder to make sure they would work on the project at most. It took some getting used to at first, but nothing too difficult.
+As a person of Persian descent, I have experienced cultural differences in the way students and teachers approach school. Specifically, I have observed that many students do not place a high emphasis on meeting deadlines, although they do strive to complete their work. Moreover, if a student receives a poor grade, it is not typically viewed as a significant issue, and there is generally little fuss made over it. The dimension "Indulgence vs restraint" definitely applies the most to what I have experienced so far, we are used to restraining to our happiness until we have completed all tasks.  
 
 
 ## 3.2. Ethics
@@ -100,11 +123,14 @@ Software engineering ethics are essential for many reasons. As software engineer
 As a software engineer, addressing ethical aspects in your work requires several steps. Firstly, you must educate yourself on ethical issues related to software engineering such as algorithmic bias, data privacy, and cybersecurity. Secondly, consider the potential impacts of your work on different stakeholders, including end-users, society, and the environment. You must also follow ethical design principles and ensure that your software respects user privacy, ensures fairness, and non-discrimination. Thirdly, participate in ethical discussions with colleagues and stakeholders to raise concerns and collaborate on ethical solutions. Finally, if you become aware of any ethical concerns related to your work, take responsibility for addressing them by reporting them to relevant authorities and working to find ethical solutions. By following these steps, you can address ethical aspects in your work and ensure that your software development process is ethical and responsible.
 
 ### 3.2.4 Ethics analysis for group project
->iets hier schrijven over dat we de boven aspecten toegoevoegd hebben in ons project.waar het project ethisch voor bedoeld is.
+>iets hier schrijven over dat we de boven aspecten toegoevoegd hebben in ons project. waar het project ethisch voor bedoeld is.
 
->vertel hier wat voor data we van ons gebruikers verzamelen en of we hun probert zo secure mogelijk te blijven en wat voor authentication (tokens) we stellen
+While developing our group project (The Parking Pals, a Q-Park remake app where you can reserve a parking space upfront), we as a team have taken into account several of the ethical aspects discussed above. The application is designed and developed to help fulfil the need that a lot of driver have a lot of trouble with parking, reserving a spot and paying and on the other hand, the administratos have it quite intricate to keep it all maintaned and managed. At the moment it is not very easy to do these things, and people might feel more frustrated as a result. We hope that our application makes this process easier and leads to happier and more fulfilling lives.
+No unnecessary data is collected from our users, and the data that does get collected we have tried to secure to the best of our ability within the time and knowledge constraints. Drivers must login using their google accounts using a secure OAuth connection.
 
->vertel hier hoe we alles testen met disrupties, wat ons ci/cd pipeline is en hoe toegankelijk onze code is evt. 
+Our services are regularly and automatically tested, so that we can respond to any disruptions quickly. And a CI/CD pipeline has been established so that new features, bugfixes, and changes to documentation are brought online almost instantly. We hope this contributes to a good quality product for our users. All of our code is publicly available for everyone to inspect, improve, or to suggest ideas for improvement.
+
+![TICT](../)  
 
 [⬆️ Back to Table of Contents](#table-of-contents)
 
