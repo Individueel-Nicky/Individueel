@@ -5,7 +5,7 @@ Teachers: Samuil Angelov and Jean Paul Ligthart
 
 ## My Deployed Website
 - Vercel: https://nickster.vercel.app/
-- Git Repository: https://github.com/nickybreezy/Nickster
+- Git Repository: *to be changed*
 - Research Report: https://github.com/nickybreezy/Nickster/blob/main/researchreport.md
 ---
 ## Table of contents
