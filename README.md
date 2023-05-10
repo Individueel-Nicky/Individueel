@@ -17,7 +17,7 @@ Teachers: Samuil Angelov and Jean Paul Ligthart
   - [3.3. Agile methods](#33-agile-methods)
   - [3.4. Business processes](#34-business-processes)
   - [3.5. Security Risk: Insecure Design](#35-security-risk-)
-  - [3.6. CI](#35-CI)
+  - [3.6. CI/CD](#36-CI/CD)
 - [4. Group Project (The Parking Pals)](#4-group-project-the-parking-pals)
   - [4.1. Software Design](#41-software-design)
   - [4.3. Software Quality](#43-software-quality)
@@ -230,7 +230,13 @@ In short, software applications play a crucial role in business processes, and o
 
 ### 3.4.3 Examples of business processes
 add business process of project after done with testing
+ 
+## 3.5 Insecure Design
 
+## 3.6 CI/CD
+
+![CI](./CI.png) 
+![CD](./CD.png) 
 [⬆️ Back to Table of Contents](#table-of-contents)
 
 ## 4. Group Project (The Parking Pals)
