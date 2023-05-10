@@ -241,11 +241,20 @@ Continuous Integration (CI) is the practice of automatically building and testin
 Continuous Deployment/Delivery (CD) is the practice of automatically deploying code changes to production servers once they have passed the tests in the CI process. This ensures that the latest version of the software is always available to users, and reduces the risk of human error in the deployment process.
 CI/CD allows teams to move quickly and confidently, knowing that changes to the code are being tested and deployed automatically. It helps to reduce the time and effort required to release software, while improving quality and reducing the risk of errors or bugs.
 
-### 3.6
-![CI](./CI.png) 
+### 3.6.2 Applying CI/CD to my own project
+<div style="display:flex;justify-content:center;align-items:center;height:100%">
+  <img src="./CI.png" alt="CI" style="max-width:100%;max-height:100%" />
+</div>
+
+
+ 
 This vercel.json configuration file defines a build command that runs your tests and any other quality checks on your code.
 This process provides continuous integration by automatically building and testing my code changes before they are deployed to production. If the build fails, I can fix the issues and try again, ensuring that only high-quality code is deployed to production.
-![CD](./CD.png) 
+<div style="display:flex;justify-content:center;align-items:center;height:100%">
+  <img src="./CD.png" alt="CD" style="max-width:100%;max-height:100%" />
+</div>
+
+
 The image I provided above is my continuous deployment (CD) for my individual project, specifically using GitHub Actions to automatically build and deploy my application to Vercel.
 Continuous Integration (CI) involves building and testing my code changes in a dedicated environment before merging them into the main codebase. This helps catch errors and bugs early in the development process.
 It was decided to be added to my workflow so that it would add more steps to my workflow file to run tests, linting, or other quality checks on my code before deploying to Vercel.
