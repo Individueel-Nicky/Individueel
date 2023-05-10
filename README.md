@@ -17,7 +17,7 @@ Teachers: Samuil Angelov and Jean Paul Ligthart
   - [3.3. Agile methods](#33-agile-methods)
   - [3.4. Business processes](#34-business-processes)
   - [3.5. Security Risk: Insecure Design](#35-security-risk-insecure-design)
-  - [3.6. CI CD](#36-CI-CD)
+  - [3.6. CI/CD](#36-CICD)
 - [4. Group Project (The Parking Pals)](#4-group-project-the-parking-pals)
   - [4.1. Software Design](#41-software-design)
   - [4.3. Software Quality](#43-software-quality)
@@ -235,8 +235,21 @@ add business process of project after done with testing
 
 ## 3.6 CI/CD
 
+### 3.6.1 What is CI/CD
+CI/CD stands for Continuous Integration and Continuous Deployment/Delivery. It is a set of practices that help software development teams to deliver high-quality software faster and more efficiently.
+Continuous Integration (CI) is the practice of automatically building and testing code changes whenever developers add new code to a shared code repository. This helps to identify issues early in the development process, before they can cause bigger problems later on.
+Continuous Deployment/Delivery (CD) is the practice of automatically deploying code changes to production servers once they have passed the tests in the CI process. This ensures that the latest version of the software is always available to users, and reduces the risk of human error in the deployment process.
+CI/CD allows teams to move quickly and confidently, knowing that changes to the code are being tested and deployed automatically. It helps to reduce the time and effort required to release software, while improving quality and reducing the risk of errors or bugs.
+
+### 3.6
 ![CI](./CI.png) 
+This vercel.json configuration file defines a build command that runs your tests and any other quality checks on your code.
+This process provides continuous integration by automatically building and testing my code changes before they are deployed to production. If the build fails, I can fix the issues and try again, ensuring that only high-quality code is deployed to production.
 ![CD](./CD.png) 
+The image I provided above is my continuous deployment (CD) for my individual project, specifically using GitHub Actions to automatically build and deploy my application to Vercel.
+Continuous Integration (CI) involves building and testing my code changes in a dedicated environment before merging them into the main codebase. This helps catch errors and bugs early in the development process.
+It was decided to be added to my workflow so that it would add more steps to my workflow file to run tests, linting, or other quality checks on my code before deploying to Vercel.
+
 [⬆️ Back to Table of Contents](#table-of-contents)
 
 ## 4. Group Project (The Parking Pals)
