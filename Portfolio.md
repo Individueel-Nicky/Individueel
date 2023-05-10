@@ -129,7 +129,7 @@ No unnecessary data is collected from our users, and the data that does get coll
 
 Our services are regularly and automatically tested, so that we can respond to any disruptions quickly. And a CI/CD pipeline has been established so that new features, bugfixes, and changes to documentation are brought online almost instantly. We hope this contributes to a good quality product for our users. All of our code is publicly available for everyone to inspect, improve, or to suggest ideas for improvement.
 
-![TICT](./tictcanvas.png)  
+![TICT](./images/tictcanvas.png)  
 
 [⬆️ Back to Table of Contents](#table-of-contents)
 
@@ -243,7 +243,7 @@ CI/CD allows teams to move quickly and confidently, knowing that changes to the 
 
 ### 3.6.2 Applying CI/CD to my own project
 <div style="display:flex;justify-content:center;align-items:center;height:100%">
-  <img src="./CI.png" alt="CI" style="max-width:100%;max-height:100%" />
+  <img src="./images/CI.png" alt="CI" style="max-width:100%;max-height:100%" />
 </div>
 
 
@@ -251,7 +251,7 @@ CI/CD allows teams to move quickly and confidently, knowing that changes to the 
 This vercel.json configuration file defines a build command that runs your tests and any other quality checks on your code.
 This process provides continuous integration by automatically building and testing my code changes before they are deployed to production. If the build fails, I can fix the issues and try again, ensuring that only high-quality code is deployed to production.
 <div style="display:flex;justify-content:center;align-items:center;height:100%">
-  <img src="./CD.png" alt="CD" style="max-width:100%;max-height:100%" />
+  <img src="./images/CD.png" alt="CD" style="max-width:100%;max-height:100%" />
 </div>
 
 
