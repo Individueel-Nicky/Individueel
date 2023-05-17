@@ -260,6 +260,10 @@ Continuous Integration (CI) involves building and testing my code changes in a d
 It was decided to be added to my workflow so that it would add more steps to my workflow file to run tests, linting, or other quality checks on my code before deploying to Vercel.
 To make sure everything goes swell, I have added tests to my project with various services. First of them is sort of connected with Vercel, called "Checkly", it is a tool that helps developers make sure their websites and apps work properly. It checks things like how fast my site loads, if certain features are working, and if there are any errors. It tells me if something goes wrong and helps me fix it quickly so that users have a good experience. 
 
+<div style="display:flex;justify-content:center;align-items:center;height:100%">
+  <img src="./images/checkly-dashboard.png" alt="Checkly Dashboard" style="max-width:100%;max-height:100%" />
+</div>
+
 [⬆️ Back to Table of Contents](#table-of-contents)
 
 ## 4. Group Project (The Parking Pals)
