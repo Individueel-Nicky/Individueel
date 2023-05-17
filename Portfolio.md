@@ -246,19 +246,19 @@ CI/CD allows teams to move quickly and confidently, knowing that changes to the 
 <div style="display:flex;justify-content:center;align-items:center;height:100%">
   <img src="./images/CI.png" alt="CI" style="max-width:100%;max-height:100%" />
 </div>
-
-
- 
+<div style="display:flex;justify-content:center;align-items:center;height:100%">
+  <img src="./images/vercel-dashboard.png" alt="Vercel Dashboard" style="max-width:100%;max-height:100%" />
+</div> 
 This vercel.json configuration file defines a build command that runs your tests and any other quality checks on your code.
 This process provides continuous integration by automatically building and testing my code changes before they are deployed to production. If the build fails, I can fix the issues and try again, ensuring that only high-quality code is deployed to production.
 <div style="display:flex;justify-content:center;align-items:center;height:100%">
   <img src="./images/CD.png" alt="CD" style="max-width:100%;max-height:100%" />
 </div>
 
-
 The image I provided above is my continuous deployment (CD) for my individual project, specifically using GitHub Actions to automatically build and deploy my application to Vercel.
 Continuous Integration (CI) involves building and testing my code changes in a dedicated environment before merging them into the main codebase. This helps catch errors and bugs early in the development process.
 It was decided to be added to my workflow so that it would add more steps to my workflow file to run tests, linting, or other quality checks on my code before deploying to Vercel.
+To make sure everything goes swell, I have added tests to my project with various services. First of them is sort of connected with Vercel, called "Checkly", it is a tool that helps developers make sure their websites and apps work properly. It checks things like how fast my site loads, if certain features are working, and if there are any errors. It tells me if something goes wrong and helps me fix it quickly so that users have a good experience. 
 
 [⬆️ Back to Table of Contents](#table-of-contents)
 
