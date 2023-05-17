@@ -138,7 +138,8 @@ Ethical conflicts for The Parking Pals may occur in a few occasions. The most im
 
 
 ### 3.2.6 Ethics analysis for individual project
-> hetzelfde als voor groep
+
+![TICT](./images/TICT-individueel.png) 
 
 
 ## 3.3. Agile methods
