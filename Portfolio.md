@@ -83,6 +83,7 @@ There are several dimensions of cultural differences that have been identified i
 <p align="center">
   <img src="https://th.bing.com/th/id/OIP.zsdh1fNYDfej8H2BSWQVxQHaHo?pid=ImgDet&rs=1" width="300" alt="Hofstede's Cultural Dimensions">
 </p>
+*Hofstede's Cultural Dimensions*
 
 These dimensions can help us better understand and navigate cultural differences, but it's important to remember that they are not absolutes and that individuals within a culture may vary in their attitudes and behaviors.
 
@@ -129,7 +130,8 @@ No unnecessary data is collected from our users, and the data that does get coll
 
 Our services are regularly and automatically tested, so that we can respond to any disruptions quickly. And a CI/CD pipeline has been established so that new features, bugfixes, and changes to documentation are brought online almost instantly. We hope this contributes to a good quality product for our users. All of our code is publicly available for everyone to inspect, improve, or to suggest ideas for improvement.
 
-![TICT](./images/tictcanvas.png)  
+![TICT](./images/tictcanvas.png) 
+*TICT for the group project (The Parking Pals)*
 
 [⬆️ Back to Table of Contents](#table-of-contents)
 
@@ -140,7 +142,7 @@ Ethical conflicts for The Parking Pals may occur in a few occasions. The most im
 ### 3.2.6 Ethics analysis for individual project
 
 ![TICT](./images/TICT-individueel.png) 
-
+*TICT for my own project (Nickster)*
 
 ## 3.3. Agile methods
 
@@ -178,6 +180,7 @@ However, it is important to note that Scrum may not be the best fit for every pr
 <p align="center">
   <img src="https://th.bing.com/th/id/R.3896712f25b01b9a774a1d62798d4616?rik=hYV21pkHGoBYDg&riu=http%3a%2f%2fprojektwelten.projectplant.de%2fwp-content%2fuploads%2f2016%2f07%2fProjectPlant_ScrumMethode_Ueberblick.jpg&ehk=CWYVNaQXNpwqRs%2fRcabXxRcRU3lktrbwjrkjc3vB8So%3d&risl=&pid=ImgRaw&r=0" width="300" alt="Scrum">
 </p>
+*Scrum*
 
 
 [⬆️ Back to Table of Contents](#table-of-contents)
@@ -246,14 +249,17 @@ CI/CD allows teams to move quickly and confidently, knowing that changes to the 
 <div style="display:flex;justify-content:center;align-items:center;height:100%">
   <img src="./images/CI.png" alt="CI" style="max-width:100%;max-height:100%" />
 </div>
+*CI for Nickster*
 <div style="display:flex;justify-content:center;align-items:center;height:100%">
   <img src="./images/vercel-dashboard.png" alt="Vercel Dashboard" style="max-width:100%;max-height:100%" />
 </div> 
+*Vercel Dashboard
 This vercel.json configuration file defines a build command that runs your tests and any other quality checks on your code.
 This process provides continuous integration by automatically building and testing my code changes before they are deployed to production. If the build fails, I can fix the issues and try again, ensuring that only high-quality code is deployed to production.
 <div style="display:flex;justify-content:center;align-items:center;height:100%">
   <img src="./images/CD.png" alt="CD" style="max-width:100%;max-height:100%" />
 </div>
+*CD for Nickster*
 
 The image I provided above is my continuous deployment (CD) for my individual project, specifically using GitHub Actions to automatically build and deploy my application to Vercel.
 Continuous Integration (CI) involves building and testing my code changes in a dedicated environment before merging them into the main codebase. This helps catch errors and bugs early in the development process.
@@ -263,6 +269,7 @@ To make sure everything goes swell, I have added tests to my project with variou
 <div style="display:flex;justify-content:center;align-items:center;height:100%">
   <img src="./images/checkly-dashboard.png" alt="Checkly Dashboard" style="max-width:100%;max-height:100%" />
 </div>
+*Checkly Dashboard for Nickster*
 
 [⬆️ Back to Table of Contents](#table-of-contents)
 
