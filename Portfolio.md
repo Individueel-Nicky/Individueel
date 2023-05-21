@@ -9,26 +9,44 @@ Teachers: Samuil Angelov and Jean Paul Ligthart
 - Research Report: https://github.com/nickybreezy/Nickster/blob/main/researchreport.md
 ---
 ## Table of contents
-- [1. Introduction](#1-introduction)
-- [2. Learning Outcomes](#2-learning-outcomes)
-- [3. Research](#3-research)
-  - [3.1. Cultural differences](#31-cultural-differences)
+- [Portfolio of my individual work in semester 3](#portfolio-of-my-individual-work-in-semester-3)
+  - [My Deployed Website](#my-deployed-website)
+  - [Table of contents](#table-of-contents)
+  - [1. Introduction](#1-introduction)
+  - [2. Learning Outcomes](#2-learning-outcomes)
+  - [3. Research](#3-research)
+    - [3.1. Cultural differences](#31-cultural-differences)
+    - [3.1.1. Introduction](#311-introduction)
+    - [3.1.2. What is culture?](#312-what-is-culture)
+    - [3.1.3. Which are well-known dimensions on cultural differences?](#313-which-are-well-known-dimensions-on-cultural-differences)
+    - [3.1.4. Personal experiences with cultural differences](#314-personal-experiences-with-cultural-differences)
   - [3.2. Ethics](#32-ethics)
+    - [3.2.1 Programming Ethical Guidelines](#321-programming-ethical-guidelines)
+    - [3.2.2 Why are ethics important in software engineering?](#322-why-are-ethics-important-in-software-engineering)
+    - [3.2.3 What do you have to do as a software engineer to address ethical aspects in your work?](#323-what-do-you-have-to-do-as-a-software-engineer-to-address-ethical-aspects-in-your-work)
+    - [3.2.4 Ethics analysis for group project](#324-ethics-analysis-for-group-project)
+    - [3.2.5 Ethical conflicts \& soltions](#325-ethical-conflicts--soltions)
+    - [3.2.6 Ethics analysis for individual project](#326-ethics-analysis-for-individual-project)
   - [3.3. Agile methods](#33-agile-methods)
+    - [3.3.1 What is Agile?](#331-what-is-agile)
+    - [3.3.2 Scrum](#332-scrum)
+    - [3.3.3 Kanban](#333-kanban)
+    - [3.3.4 For the group project](#334-for-the-group-project)
+    - [3.3.5 For my individual project](#335-for-my-individual-project)
   - [3.4. Business processes](#34-business-processes)
-  - [3.5. Security Risk: Insecure Design](#35-security-risk-insecure-design)
-  - [3.6. CI/CD](#36-CICD)
-- [4. Group Project (The Parking Pals)](#4-group-project-the-parking-pals)
-  - [4.1. Software Design](#41-software-design)
-  - [4.3. Software Quality](#43-software-quality)
-- [5. Individual Project (Nickster)](#5-individual-project-nickster)
-  - [5.1. Software design](#51-software-design)
-  - [5.3. Software quality](#53-software-quality)
-  - [5.4. UI and UX design](#54-ui-and-ux-design)
-- [6. Reflection](#6-reflection)
-  - [6.1. What have I learned?](#61-what-i-have-learned)
-  - [6.2. What went well?](#62-what-went-well)
-  - [6.3. What would I do differently next time?](#63-where-there-is-room-for-improvement)
+    - [3.4.1 Introduction](#341-introduction)
+    - [3.4.2 The role of software applications in business processes](#342-the-role-of-software-applications-in-business-processes)
+    - [3.4.3 Examples of business processes](#343-examples-of-business-processes)
+  - [3.5 Research Report #1: Insecure Design](#35-research-report-1-insecure-design)
+  - [3.6 CI/CD](#36-cicd)
+    - [3.6.1 What is CI/CD](#361-what-is-cicd)
+    - [3.6.2 Applying CI/CD to my own project](#362-applying-cicd-to-my-own-project)
+  - [4. Group Project (The Parking Pals)](#4-group-project-the-parking-pals)
+    - [4.1 Strategy](#41-strategy)
+    - [4.2 Design choice](#42-design-choice)
+    - [4.3 Software Design](#43-software-design)
+    - [4.4 Software Architecture](#44-software-architecture)
+  - [5. Individual Project (Nickster)](#5-individual-project-nickster)
 
 ## 1. Introduction
 
@@ -238,7 +256,14 @@ In short, software applications play a crucial role in business processes, and o
 ### 3.4.3 Examples of business processes
 add business process of project after done with testing
  
-## 3.5 Security Risk: Insecure Design
+
+[⬆️ Back to Table of Contents](#table-of-contents)
+
+## 3.5 Research Report #1: Insecure Design
+
+
+[View my research report on Insecure Design](https://github.com/nickybreezy/Nickster/blob/main/researchreport.md)
+
 
 ## 3.6 CI/CD
 
@@ -255,6 +280,7 @@ CI/CD allows teams to move quickly and confidently, knowing that changes to the 
 
 *CI for Nickster*
 
+[⬆️ Back to Table of Contents](#table-of-contents)
 <div style="display:flex;justify-content:center;align-items:center;height:100%">
   <img src="./images/vercel-dashboard.png" alt="Vercel Dashboard" style="max-width:100%;max-height:100%" />
 </div> 
