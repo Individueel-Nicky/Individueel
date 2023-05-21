@@ -38,16 +38,16 @@ Welcome to my software development portfolio! I'm currently in my third semester
 
 ## 2. Learning Outcomes
 
-| # | Name | Short description | Clarification |
-|---|------|-------------------|---------------|
-| 1 | Web application | You design and build **user-friendly, full-stack** web applications. | **User friendly:** You apply basic User experience testing and development techniques.<br>**Full-stack:** You design and build a full stack application using commonly accepted front end (JavaScript-based framework) and back end techniques (e.g. Object Relational Mapping) choosing and implementing relevant communication protocols and addressing asynchronous communication issues. |
-| 2 | Software quality | You use software **tooling and methodology** that continuously monitors and improve the software quality during software development. | **Tooling and methodology:** Carry out, monitor and report on unit integration, regression and system tests, with attention for security and performance aspects, as well as applying static code analysis and code reviews. |
-| 3 | Agile method | You **choose** and implement the most suitable agile software development method for your software project. | **Choose:** You are aware of the most popular agile methods and their underlying agile principles. Your choice of a method is motivated and based on well-defined selection criteria and context analyses. |
-| 4 | CI/CD | You **implement** a (semi)automated software release process that matches the needs of the project context. | **Implement:** You implement a continuous integration and deployment solution (using e.g. Gitlab CI and Docker). |
-| 5 | Cultural differences and ethics | You **recognize** and **take into account** cultural differences between project stakeholders and ethical aspects in software development. | **Recognize**:  Recognition is based on theoretically substantiated awareness of cultural differences and ethical aspects in software engineering.<br>**Take into account:** Adapt your communication, working, and behavior styles to reflect project stakeholders from different cultures;<br>Address one of the standard Programming Ethical Guidelines (e.g., ACM Code of Ethics and Professional Conduct) in your work. |
-| 6 | Requirements and Design | You analyze (non-functional) requirements, elaborate (architectural) designs and validate them using **multiple types of test techniques**. | **Multiple types of test techniques:** You apply user acceptance testing and stakeholder feedback to validate the quality of the requirements. You evaluate the quality of the design (e.g., by testing or prototyping) taking into account the formulated quality properties like security and performance. |
-| 7 | Business processes | You analyze and describe **simple** business processes that are **related** to your project. | **Simple:** Involving stakeholders, predominantly sequential processes with one or two alternative paths.<br>**Related:** Business processes during which the software that you are developing will be used (business processes that the software must support by fully or partially automating them).<br>**or**<br>Business processes needed for the success of your software development project (e.g., product release, market release, financial assurance). |
-| 8 | Professional | You act in a **professional manner** during software development and learning. | **Professional manner:** You develop software as a team effort according to a prescribed software methodology and following team agreements. You are able to track your work progress and communicate your progress with the team.<br>You actively ask and apply feedback from stakeholders and advise them on the most optimal technical and design (architectural) solutions. You choose and substantiate solutions for a given problem. |
+| #   | Name                            | Short description                                                                                                                           | Clarification                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| --- | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | Web application                 | You design and build **user-friendly, full-stack** web applications.                                                                        | **User friendly:** You apply basic User experience testing and development techniques.<br>**Full-stack:** You design and build a full stack application using commonly accepted front end (JavaScript-based framework) and back end techniques (e.g. Object Relational Mapping) choosing and implementing relevant communication protocols and addressing asynchronous communication issues.                                                                     |
+| 2   | Software quality                | You use software **tooling and methodology** that continuously monitors and improve the software quality during software development.       | **Tooling and methodology:** Carry out, monitor and report on unit integration, regression and system tests, with attention for security and performance aspects, as well as applying static code analysis and code reviews.                                                                                                                                                                                                                                     |
+| 3   | Agile method                    | You **choose** and implement the most suitable agile software development method for your software project.                                 | **Choose:** You are aware of the most popular agile methods and their underlying agile principles. Your choice of a method is motivated and based on well-defined selection criteria and context analyses.                                                                                                                                                                                                                                                       |
+| 4   | CI/CD                           | You **implement** a (semi)automated software release process that matches the needs of the project context.                                 | **Implement:** You implement a continuous integration and deployment solution (using e.g. Gitlab CI and Docker).                                                                                                                                                                                                                                                                                                                                                 |
+| 5   | Cultural differences and ethics | You **recognize** and **take into account** cultural differences between project stakeholders and ethical aspects in software development.  | **Recognize**:  Recognition is based on theoretically substantiated awareness of cultural differences and ethical aspects in software engineering.<br>**Take into account:** Adapt your communication, working, and behavior styles to reflect project stakeholders from different cultures;<br>Address one of the standard Programming Ethical Guidelines (e.g., ACM Code of Ethics and Professional Conduct) in your work.                                     |
+| 6   | Requirements and Design         | You analyze (non-functional) requirements, elaborate (architectural) designs and validate them using **multiple types of test techniques**. | **Multiple types of test techniques:** You apply user acceptance testing and stakeholder feedback to validate the quality of the requirements. You evaluate the quality of the design (e.g., by testing or prototyping) taking into account the formulated quality properties like security and performance.                                                                                                                                                     |
+| 7   | Business processes              | You analyze and describe **simple** business processes that are **related** to your project.                                                | **Simple:** Involving stakeholders, predominantly sequential processes with one or two alternative paths.<br>**Related:** Business processes during which the software that you are developing will be used (business processes that the software must support by fully or partially automating them).<br>**or**<br>Business processes needed for the success of your software development project (e.g., product release, market release, financial assurance). |
+| 8   | Professional                    | You act in a **professional manner** during software development and learning.                                                              | **Professional manner:** You develop software as a team effort according to a prescribed software methodology and following team agreements. You are able to track your work progress and communicate your progress with the team.<br>You actively ask and apply feedback from stakeholders and advise them on the most optimal technical and design (architectural) solutions. You choose and substantiate solutions for a given problem.                       |
 
 [⬆️ Back to Table of Contents](#table-of-contents)
 
@@ -182,7 +182,8 @@ However, it is important to note that Scrum may not be the best fit for every pr
 <p align="center">
   <img src="https://th.bing.com/th/id/R.3896712f25b01b9a774a1d62798d4616?rik=hYV21pkHGoBYDg&riu=http%3a%2f%2fprojektwelten.projectplant.de%2fwp-content%2fuploads%2f2016%2f07%2fProjectPlant_ScrumMethode_Ueberblick.jpg&ehk=CWYVNaQXNpwqRs%2fRcabXxRcRU3lktrbwjrkjc3vB8So%3d&risl=&pid=ImgRaw&r=0" width="300" alt="Scrum">
 </p>
-*Scrum*
+
+*Scrum* 
 
 
 [⬆️ Back to Table of Contents](#table-of-contents)
@@ -251,16 +252,21 @@ CI/CD allows teams to move quickly and confidently, knowing that changes to the 
 <div style="display:flex;justify-content:center;align-items:center;height:100%">
   <img src="./images/CI.png" alt="CI" style="max-width:100%;max-height:100%" />
 </div>
+
 *CI for Nickster*
+
 <div style="display:flex;justify-content:center;align-items:center;height:100%">
   <img src="./images/vercel-dashboard.png" alt="Vercel Dashboard" style="max-width:100%;max-height:100%" />
 </div> 
-*Vercel Dashboard
+
+*Vercel Dashboard*
+
 This vercel.json configuration file defines a build command that runs your tests and any other quality checks on your code.
 This process provides continuous integration by automatically building and testing my code changes before they are deployed to production. If the build fails, I can fix the issues and try again, ensuring that only high-quality code is deployed to production.
 <div style="display:flex;justify-content:center;align-items:center;height:100%">
   <img src="./images/CD.png" alt="CD" style="max-width:100%;max-height:100%" />
 </div>
+
 *CD for Nickster*
 
 The image I provided above is my continuous deployment (CD) for my individual project, specifically using GitHub Actions to automatically build and deploy my application to Vercel.
@@ -271,13 +277,14 @@ To make sure everything goes swell, I have added tests to my project with variou
 <div style="display:flex;justify-content:center;align-items:center;height:100%">
   <img src="./images/checkly-dashboard.png" alt="Checkly Dashboard" style="max-width:100%;max-height:100%" />
 </div>
+
 *Checkly Dashboard for Nickster*
 
 [⬆️ Back to Table of Contents](#table-of-contents)
 
 ## 4. Group Project (The Parking Pals)
-<div style="display:flex;justify-content:center;align-items:center;height:20%">
-  <img src="./images/the-parking-pals-logo.png" alt="Checkly Dashboard" style="max-width:100%;max-height:20%" />
+<div style="display:flex;justify-content:center;align-items:center;height:30%">
+  <img src="./images/the-parking-pals-logo.png" alt="Checkly Dashboard" style="max-width:100%;max-height:60%" />
 </div>
 
 A company that owns parking garages gets a lot of complaints about the malfunctioning of the ticket machines. They also receive complaints about the queue being too long for machines, so you must wait a long time to pay. The client wishes for a solution to their previously mentioned problem. The preferred solution would make it so that the driver of the vehicle can drive into the parking garage without having to stand still. This would be possible by registering the license plate of the vehicle. The driver would then be able to pay via his/her mobile device so that they can leave the garage. It would reduce the amount of time a driver takes to park his/her vehicle in the garage and the same applies to leaving the garage. This would allow an increased traffic flow in and out of the garage and would therefore allow for an increased revenue stream. It would also provide a more convenient solution for the driver, which would result in a better reputation compared to alternative parking solutions. 
