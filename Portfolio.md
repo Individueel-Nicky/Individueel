@@ -83,6 +83,7 @@ There are several dimensions of cultural differences that have been identified i
 <p align="center">
   <img src="https://th.bing.com/th/id/OIP.zsdh1fNYDfej8H2BSWQVxQHaHo?pid=ImgDet&rs=1" width="300" alt="Hofstede's Cultural Dimensions">
 </p>
+
 *Hofstede's Cultural Dimensions*
 
 These dimensions can help us better understand and navigate cultural differences, but it's important to remember that they are not absolutes and that individuals within a culture may vary in their attitudes and behaviors.
@@ -131,6 +132,7 @@ No unnecessary data is collected from our users, and the data that does get coll
 Our services are regularly and automatically tested, so that we can respond to any disruptions quickly. And a CI/CD pipeline has been established so that new features, bugfixes, and changes to documentation are brought online almost instantly. We hope this contributes to a good quality product for our users. All of our code is publicly available for everyone to inspect, improve, or to suggest ideas for improvement.
 
 ![TICT](./images/tictcanvas.png) 
+
 *TICT for the group project (The Parking Pals)*
 
 [⬆️ Back to Table of Contents](#table-of-contents)
