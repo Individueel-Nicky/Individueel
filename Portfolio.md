@@ -37,7 +37,9 @@ Teachers: Samuil Angelov and Jean Paul Ligthart
     - [3.4.1 Introduction](#341-introduction)
     - [3.4.2 The role of software applications in business processes](#342-the-role-of-software-applications-in-business-processes)
     - [3.4.3 Examples of business processes](#343-examples-of-business-processes)
-  - [3.5 Research Report #1: Insecure Design](#35-research-report-1-insecure-design)
+  - [3.5 Research Reports](#35-research-reports)
+    - [3.5.1 Insecure Design](#351-insecure-design)
+    - [3.5.2 The Impact of Cultural Differences and Ethics](#352-the-impact-of-cultural-differences-and-ethics)
   - [3.6 CI/CD](#36-cicd)
     - [3.6.1 What is CI/CD](#361-what-is-cicd)
     - [3.6.2 Applying CI/CD to my own project](#362-applying-cicd-to-my-own-project)
@@ -46,6 +48,7 @@ Teachers: Samuil Angelov and Jean Paul Ligthart
     - [4.2 Design choice](#42-design-choice)
     - [4.3 Software Design](#43-software-design)
     - [4.4 Software Architecture](#44-software-architecture)
+    - [4.5 Behind the Project](#45-behind-the-project)
   - [5. Individual Project (Nickster)](#5-individual-project-nickster)
 
 ## 1. Introduction
@@ -336,6 +339,12 @@ For the learning outcomes, it is specified that we use a JavaScript front-end fr
 Because we worked previously with C#, and because C# outperforms Java while having the same functionalities. We have selected C# Asp.net 
 
 ### 4.3 Software Design
+> denk hier ook aan de user stories en usability - UX , testing met gebruikers etc. 
+
+<div style="display:flex;justify-content:center;align-items:center;height:50%">
+  <img src="./images/userstories.png" alt="user stories" style="max-width:100%;max-height:78%" />
+</div>
+
 
 ### 4.4 Software Architecture
 ![Alt text](https://camo.githubusercontent.com/966bcef2778f624c6fc5ef8b7c2a7f5c6f11a2defb1c70ae7e7357f47777dd99/68747470733a2f2f692e6962622e636f2f734372364d68672f636f6e7461696e65722d6d6f64656c2e706e67)
@@ -348,5 +357,13 @@ As to be seen in the image, it has a lot of services, each to have their own api
 Each service has its own database and if it needs data from outside its domain to perform its function, it will contact the relevant service through the API gateway and request the needed data from the service that contains it. We have tried to minimize these dependencies in order to keep the different services as independent of each other as possible. In case the client application needs to collect data from the different domains it can contact each service separately to request the required data, combine it, and display it to the user.
 
 > Add the configured/latest architecture at the end of the project when everything is done 
+
+### 4.5 Behind the Project
+<div style="display:flex;justify-content:center;align-items:center;height:70%">
+  <img src="./images/backlog.png" alt="Checkly Dashboard" style="max-width:100%;max-height:60%" />
+  <img src="./images/board.png" alt="Checkly Dashboard" style="max-width:100%;max-height:60%" />
+</div>
+
+As seen in the image above, these are the "User Stories" in addition to a few "child tasks". As of today. they are not all completed but we are nearly done. In the image next to it you can see how we have sorted out the tasks with the numbers on the right showing how hard it is to complete the tasks by number of hours that need to be put in.
 
 ## 5. Individual Project (Nickster)
