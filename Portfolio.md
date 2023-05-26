@@ -259,10 +259,11 @@ add business process of project after done with testing
 
 [⬆️ Back to Table of Contents](#table-of-contents)
 
-## 3.5 Research Report #1: Insecure Design
-
-
+## 3.5 Research Reports
+ ### 3.5.1 Insecure Design
 [View my research report on Insecure Design](https://github.com/nickybreezy/Nickster/blob/main/researchreport.md)
+ ### 3.5.2 The Impact of Cultural Differences and Ethics
+[View my research report on the impact of Cultural Differences and Ethics](/Culture%20differences%20RR.md)
 
 
 ## 3.6 CI/CD
