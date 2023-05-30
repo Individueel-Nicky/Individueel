@@ -50,6 +50,7 @@ Teachers: Samuil Angelov and Jean Paul Ligthart
     - [4.4 Software Architecture](#44-software-architecture)
     - [4.5 Behind the Project](#45-behind-the-project)
   - [5. Individual Project (Nickster)](#5-individual-project-nickster)
+  - [6. Sources](#6-sources)
 
 ## 1. Introduction
 
@@ -278,16 +279,13 @@ Continuous Deployment/Delivery (CD) is the practice of automatically deploying c
 CI/CD allows teams to move quickly and confidently, knowing that changes to the code are being tested and deployed automatically. It helps to reduce the time and effort required to release software, while improving quality and reducing the risk of errors or bugs.
 
 ### 3.6.2 Applying CI/CD to my own project
-<div style="display:flex;justify-content:center;align-items:center;height:100%">
+
   <img src="./images/CI.png" alt="CI" style="max-width:100%;max-height:100%" />
-</div>
 
 *CI for Nickster*
 
 [⬆️ Back to Table of Contents](#table-of-contents)
-<div style="display:flex;justify-content:center;align-items:center;height:100%">
   <img src="./images/vercel-dashboard.png" alt="Vercel Dashboard" style="max-width:100%;max-height:100%" />
-</div> 
 
 *Vercel Dashboard*
 
@@ -313,15 +311,14 @@ To make sure everything goes swell, I have added tests to my project with variou
 [⬆️ Back to Table of Contents](#table-of-contents)
 
 ## 4. Group Project (The Parking Pals)
-<div style="display:flex;justify-content:center;align-items:center;height:30%">
+
   <img src="./images/the-parking-pals-logo.png" alt="Checkly Dashboard" style="max-width:100%;max-height:60%" />
-</div>
+
 
 A company that owns parking garages gets a lot of complaints about the malfunctioning of the ticket machines. They also receive complaints about the queue being too long for machines, so you must wait a long time to pay. The client wishes for a solution to their previously mentioned problem. The preferred solution would make it so that the driver of the vehicle can drive into the parking garage without having to stand still. This would be possible by registering the license plate of the vehicle. The driver would then be able to pay via his/her mobile device so that they can leave the garage. It would reduce the amount of time a driver takes to park his/her vehicle in the garage and the same applies to leaving the garage. This would allow an increased traffic flow in and out of the garage and would therefore allow for an increased revenue stream. It would also provide a more convenient solution for the driver, which would result in a better reputation compared to alternative parking solutions. 
 
 [Azure DevOps for the process](https://dev.azure.com/parking-pals/Parking%20Pals%20App/_sprints/taskboard/Parking%20Pals%20App%20Team/Parking%20Pals%20App/)
 
->add a gif quickly showing the website
 
 [⬆️ Back to Table of Contents](#table-of-contents)
 
@@ -356,8 +353,6 @@ As to be seen in the image, it has a lot of services, each to have their own api
 
 Each service has its own database and if it needs data from outside its domain to perform its function, it will contact the relevant service through the API gateway and request the needed data from the service that contains it. We have tried to minimize these dependencies in order to keep the different services as independent of each other as possible. In case the client application needs to collect data from the different domains it can contact each service separately to request the required data, combine it, and display it to the user.
 
-> Add the configured/latest architecture at the end of the project when everything is done 
-
 ### 4.5 Behind the Project
 <div style="display:flex;justify-content:center;align-items:center;height:70%">
   <img src="./images/backlog.png" alt="Checkly Dashboard" style="max-width:100%;max-height:60%" />
@@ -367,3 +362,17 @@ Each service has its own database and if it needs data from outside its domain t
 As seen in the image above, these are the "User Stories" in addition to a few "child tasks". As of today. they are not all completed but we are nearly done. In the image next to it you can see how we have sorted out the tasks with the numbers on the right showing how hard it is to complete the tasks by number of hours that need to be put in.
 
 ## 5. Individual Project (Nickster)
+
+## 6. Sources
+ - Taras, V. (2021, September 17). Research: How Cultural Differences Can Impact Global Teams. Harvard Business Review. https://hbr.org/2021/06/research-how-cultural-differences-can-impact-global-teams
+ - The 6 dimensions model of national culture by Geert Hofstede. (2021, February 20). Geert Hofstede. https://geerthofstede.com/culture-geert-hofstede-gert-jan-hofstede/6d-model-of-national-culture/
+ - ACM Ethics. (2022, June 8). Software Engineering Code - ACM Ethics. ACM Ethics - the Official Site of the Association for Computing Machinery’s Committee on Professional Ethics. https://ethics.acm.org/code-of-ethics/software-engineering-code/
+ - Yılan, G. (2022, January 7). Ethics for Software Engineers - Gamze Yılan - Medium. Medium. https://gamzeyilan1.medium.com/ethics-for-software-engineers-4b0d91b6f238
+ - Peek, S. (2023). What Is Agile Scrum Methodology? Business News Daily. https://www.businessnewsdaily.com/4987-what-is-agile-scrum-methodology.html
+ - Hamilton, T. (2023). Agile Vs. Scrum: Key Difference Between Methodology. Guru99. https://www.guru99.com/agile-vs-scrum.html
+ - What is business process automation? (n.d.). https://www.redhat.com/en/topics/automation/what-is-business-process-automation#:~:text=Business%20process%20automation%20(BPA)%20is,the%20needs%20of%20an%20organization.
+ - Pine, O. (2022). The Top 10 Business Processes to Automate for Maximum Efficiency. G7 Tech Services. https://g7techservices.com/news/the-top-10-business-processes-to-automate-for-maximum-efficiency/#:~:text=The%20top%2010%20business%20processes%20to%20automate%20are%20customer%20service,%2C%20document%20management%2C%20and%20analytics.
+ - What is CI/CD? (n.d.). https://www.redhat.com/en/topics/devops/what-is-ci-cd#:~:text=CI%2FCD%20is%20a%20method,continuous%20delivery%2C%20and%20continuous%20deployment.
+ - What Is CI/CD and How Does It Work? | Synopsys. (n.d.). https://www.synopsys.com/glossary/what-is-cicd.html
+ - Vilmate, & Vilmate. (2023). Benefits of a microservices architecture. Nearshore Software Development Company in Ukraine - VILMATE. https://vilmate.com/blog/benefits-of-microservices-architecture/
+
