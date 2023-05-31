@@ -108,7 +108,7 @@ There are several dimensions of cultural differences that have been identified i
 
 *Hofstede's Cultural Dimensions*
 
-These dimensions can help us better understand and navigate cultural differences, but it's important to remember that they are not absolutes and that individuals within a culture may vary in their attitudes and behaviors.
+These dimensions can help us better understand and navigate cultural differences, but it's important to remember that they are not absolutes and that individuals within a culture may vary in their attitudes and behaviors (The 6 Dimensions Model of National Culture by Geert Hofstede, 2021).
 
 ### 3.1.4. Personal experiences with cultural differences
 
@@ -171,7 +171,7 @@ Ethical conflicts for The Parking Pals may occur in a few occasions. The most im
 ## 3.3. Agile methods
 
 ### 3.3.1 What is Agile?
-Agile is a term that describes approaches to software development that emphasize incremental delivery, team collaboration, continual planning, and continual learning. The different methodologies are used to establish different principles to guide a better approach to software development.
+Agile is a term that describes approaches to software development that emphasize incremental delivery, team collaboration, continual planning, and continual learning. The different methodologies are used to establish different principles to guide a better approach to software development (ACM Ethics, 2022).
 
 1. Customer satisfaction: Agile focuses on delivering value to the customer, and customer satisfaction is a top priority.
 
@@ -240,7 +240,7 @@ Personally I have only worked with Scrum and I kept finding it the most compatib
 
 ### 3.4.1 Introduction
 Business processes refers to a series of interconnected tasks or activities that are designed to achieve a specific business goal using technology. It involves the use of various software, hardware, and networks to automate, optimize, test and streamline business operations.
-In conclusion, it plays a crucial role in defining, executing, and managing business processes, and businesses need to leverage technology to stay competitive and efficient in today's fast-paced digital economy.
+In conclusion, it plays a crucial role in defining, executing, and managing business processes, and businesses need to leverage technology to stay competitive and efficient in today's fast-paced digital economy (Pine, 2022).
 
 ### 3.4.2 The role of software applications in business processes
 The role of software applications in business processes is significant and diverse. Here are some of the ways software applications contribute to business processes:
@@ -254,6 +254,9 @@ The role of software applications in business processes is significant and diver
  - Data analytics: Software applications can provide insights into business processes through data analytics. This allows organizations to identify areas for improvement and make data-driven decisions.
 
  - Compliance: Software applications can help organizations comply with regulatory requirements by automating compliance processes and ensuring data accuracy and security.
+ <img src="./images/mochawesome.png" width="600" height = "100" alt="Moch Awesome">
+
+
 
 In short, software applications play a crucial role in business processes, and organizations need to carefully select and implement the right software solutions to achieve their business goals and stay competitive in today's digital economy.
 
@@ -303,7 +306,7 @@ It was decided to be added to my workflow so that it would add more steps to my 
 To make sure everything goes swell, I have added tests to my project with various services. First of them is sort of connected with Vercel, called "Checkly", it is a tool that helps developers make sure their websites and apps work properly. It checks things like how fast my site loads, if certain features are working, and if there are any errors. It tells me if something goes wrong and helps me fix it quickly so that users have a good experience. 
 
 <div style="display:flex;justify-content:center;align-items:center;height:100%">
-  <img src="./images/checkly-dashboard.png" alt="Checkly Dashboard" style="max-width:100%;max-height:100%" />
+  <img src="./images/vercel-dashboard.png" alt="Vercel Dashboard" style="max-width:100%;max-height:100%" />
 </div>
 
 *Checkly Dashboard for Nickster*
@@ -336,7 +339,7 @@ For the learning outcomes, it is specified that we use a JavaScript front-end fr
 Because we worked previously with C#, and because C# outperforms Java while having the same functionalities. We have selected C# Asp.net 
 
 ### 4.3 Software Design
-> denk hier ook aan de user stories en usability - UX , testing met gebruikers etc. 
+
 
 <div style="display:flex;justify-content:center;align-items:center;height:50%">
   <img src="./images/userstories.png" alt="user stories" style="max-width:100%;max-height:78%" />
@@ -364,15 +367,18 @@ As seen in the image above, these are the "User Stories" in addition to a few "c
 ## 5. Individual Project (Nickster)
 
 ## 6. Sources
+- ACM Ethics. (2022, June 8). Software Engineering Code - ACM Ethics. ACM Ethics - the Official Site of the Association for Computing Machinery’s Committee on Professional Ethics. 
+ - Hamilton, T. (2023). Agile Vs. Scrum: Key Difference Between Methodology. Guru99. https://www.guru99.com/agile-vs-scrum.html
+https://ethics.acm.org/code-of-ethics/software-engineering-code/
+- Peek, S. (2023). What Is Agile Scrum Methodology? Business News Daily. https://www.businessnewsdaily.com/4987-what-is-agile-scrum-methodology.html
+- Pine, O. (2022). The Top 10 Business Processes to Automate for Maximum Efficiency. G7 Tech Services. https://g7techservices.com/news/the-top-10-business-processes-to-automate-for-maximum-efficiency/#:~:text=The%20top%2010%20business%20processes%20to%20automate%20are%20customer%20service,%2C%20document%20management%2C%20and%20analytics.
  - Taras, V. (2021, September 17). Research: How Cultural Differences Can Impact Global Teams. Harvard Business Review. https://hbr.org/2021/06/research-how-cultural-differences-can-impact-global-teams
  - The 6 dimensions model of national culture by Geert Hofstede. (2021, February 20). Geert Hofstede. https://geerthofstede.com/culture-geert-hofstede-gert-jan-hofstede/6d-model-of-national-culture/
- - ACM Ethics. (2022, June 8). Software Engineering Code - ACM Ethics. ACM Ethics - the Official Site of the Association for Computing Machinery’s Committee on Professional Ethics. https://ethics.acm.org/code-of-ethics/software-engineering-code/
- - Yılan, G. (2022, January 7). Ethics for Software Engineers - Gamze Yılan - Medium. Medium. https://gamzeyilan1.medium.com/ethics-for-software-engineers-4b0d91b6f238
- - Peek, S. (2023). What Is Agile Scrum Methodology? Business News Daily. https://www.businessnewsdaily.com/4987-what-is-agile-scrum-methodology.html
- - Hamilton, T. (2023). Agile Vs. Scrum: Key Difference Between Methodology. Guru99. https://www.guru99.com/agile-vs-scrum.html
+ - Vilmate, & Vilmate. (2023). Benefits of a microservices architecture. Nearshore Software Development Company in Ukraine - VILMATE. https://vilmate.com/blog/benefits-of-microservices-architecture/
  - What is business process automation? (n.d.). https://www.redhat.com/en/topics/automation/what-is-business-process-automation#:~:text=Business%20process%20automation%20(BPA)%20is,the%20needs%20of%20an%20organization.
- - Pine, O. (2022). The Top 10 Business Processes to Automate for Maximum Efficiency. G7 Tech Services. https://g7techservices.com/news/the-top-10-business-processes-to-automate-for-maximum-efficiency/#:~:text=The%20top%2010%20business%20processes%20to%20automate%20are%20customer%20service,%2C%20document%20management%2C%20and%20analytics.
  - What is CI/CD? (n.d.). https://www.redhat.com/en/topics/devops/what-is-ci-cd#:~:text=CI%2FCD%20is%20a%20method,continuous%20delivery%2C%20and%20continuous%20deployment.
  - What Is CI/CD and How Does It Work? | Synopsys. (n.d.). https://www.synopsys.com/glossary/what-is-cicd.html
- - Vilmate, & Vilmate. (2023). Benefits of a microservices architecture. Nearshore Software Development Company in Ukraine - VILMATE. https://vilmate.com/blog/benefits-of-microservices-architecture/
+ - Yılan, G. (2022, January 7). Ethics for Software Engineers - Gamze Yılan - Medium. Medium. https://gamzeyilan1.medium.com/ethics-for-software-engineers-4b0d91b6f238
+
+
 
