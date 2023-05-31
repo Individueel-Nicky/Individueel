@@ -9,48 +9,26 @@ Teachers: Samuil Angelov and Jean Paul Ligthart
 - Research Report: https://github.com/nickybreezy/Nickster/blob/main/researchreport.md
 ---
 ## Table of contents
-- [Portfolio of my individual work in semester 3](#portfolio-of-my-individual-work-in-semester-3)
-  - [My Deployed Website](#my-deployed-website)
-  - [Table of contents](#table-of-contents)
-  - [1. Introduction](#1-introduction)
-  - [2. Learning Outcomes](#2-learning-outcomes)
-  - [3. Research](#3-research)
-    - [3.1. Cultural differences](#31-cultural-differences)
-    - [3.1.1. Introduction](#311-introduction)
-    - [3.1.2. What is culture?](#312-what-is-culture)
-    - [3.1.3. Which are well-known dimensions on cultural differences?](#313-which-are-well-known-dimensions-on-cultural-differences)
-    - [3.1.4. Personal experiences with cultural differences](#314-personal-experiences-with-cultural-differences)
+- [1. Introduction](#1-introduction)
+- [2. Learning Outcomes](#2-learning-outcomes)
+- [3. Research](#3-research)
+  - [3.1. Cultural differences](#31-cultural-differences)
   - [3.2. Ethics](#32-ethics)
-    - [3.2.1 Programming Ethical Guidelines](#321-programming-ethical-guidelines)
-    - [3.2.2 Why are ethics important in software engineering?](#322-why-are-ethics-important-in-software-engineering)
-    - [3.2.3 What do you have to do as a software engineer to address ethical aspects in your work?](#323-what-do-you-have-to-do-as-a-software-engineer-to-address-ethical-aspects-in-your-work)
-    - [3.2.4 Ethics analysis for group project](#324-ethics-analysis-for-group-project)
-    - [3.2.5 Ethical conflicts \& soltions](#325-ethical-conflicts--soltions)
-    - [3.2.6 Ethics analysis for individual project](#326-ethics-analysis-for-individual-project)
   - [3.3. Agile methods](#33-agile-methods)
-    - [3.3.1 What is Agile?](#331-what-is-agile)
-    - [3.3.2 Scrum](#332-scrum)
-    - [3.3.3 Kanban](#333-kanban)
-    - [3.3.4 For the group project](#334-for-the-group-project)
-    - [3.3.5 For my individual project](#335-for-my-individual-project)
   - [3.4. Business processes](#34-business-processes)
-    - [3.4.1 Introduction](#341-introduction)
-    - [3.4.2 The role of software applications in business processes](#342-the-role-of-software-applications-in-business-processes)
-    - [3.4.3 Examples of business processes](#343-examples-of-business-processes)
-  - [3.5 Research Reports](#35-research-reports)
-    - [3.5.1 Insecure Design](#351-insecure-design)
-    - [3.5.2 The Impact of Cultural Differences and Ethics](#352-the-impact-of-cultural-differences-and-ethics)
-  - [3.6 CI/CD](#36-cicd)
-    - [3.6.1 What is CI/CD](#361-what-is-cicd)
-    - [3.6.2 Applying CI/CD to my own project](#362-applying-cicd-to-my-own-project)
-  - [4. Group Project (The Parking Pals)](#4-group-project-the-parking-pals)
-    - [4.1 Strategy](#41-strategy)
-    - [4.2 Design choice](#42-design-choice)
-    - [4.3 Software Design](#43-software-design)
-    - [4.4 Software Architecture](#44-software-architecture)
-    - [4.5 Behind the Project](#45-behind-the-project)
-  - [5. Individual Project (Nickster)](#5-individual-project-nickster)
-  - [6. Sources](#6-sources)
+  - [3.5. Security Risk: Insecure Design](#35-security-risk-insecure-design)
+  - [3.6. CI/CD](#36-CICD)
+- [4. Group Project (The Parking Pals)](#4-group-project-the-parking-pals)
+  - [4.1. Software Design](#41-software-design)
+  - [4.3. Software Quality](#43-software-quality)
+- [5. Individual Project (Nickster)](#5-individual-project-nickster)
+  - [5.1. Software design](#51-software-design)
+  - [5.3. Software quality](#53-software-quality)
+  - [5.4. UI and UX design](#54-ui-and-ux-design)
+- [6. Reflection](#6-reflection)
+  - [6.1. What have I learned?](#61-what-i-have-learned)
+  - [6.2. What went well?](#62-what-went-well)
+  - [6.3. What would I do differently next time?](#63-where-there-is-room-for-improvement)
 
 ## 1. Introduction
 
@@ -60,16 +38,16 @@ Welcome to my software development portfolio! I'm currently in my third semester
 
 ## 2. Learning Outcomes
 
-| #   | Name                            | Short description                                                                                                                           | Clarification                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| --- | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1   | Web application                 | You design and build **user-friendly, full-stack** web applications.                                                                        | **User friendly:** You apply basic User experience testing and development techniques.<br>**Full-stack:** You design and build a full stack application using commonly accepted front end (JavaScript-based framework) and back end techniques (e.g. Object Relational Mapping) choosing and implementing relevant communication protocols and addressing asynchronous communication issues.                                                                     |
-| 2   | Software quality                | You use software **tooling and methodology** that continuously monitors and improve the software quality during software development.       | **Tooling and methodology:** Carry out, monitor and report on unit integration, regression and system tests, with attention for security and performance aspects, as well as applying static code analysis and code reviews.                                                                                                                                                                                                                                     |
-| 3   | Agile method                    | You **choose** and implement the most suitable agile software development method for your software project.                                 | **Choose:** You are aware of the most popular agile methods and their underlying agile principles. Your choice of a method is motivated and based on well-defined selection criteria and context analyses.                                                                                                                                                                                                                                                       |
-| 4   | CI/CD                           | You **implement** a (semi)automated software release process that matches the needs of the project context.                                 | **Implement:** You implement a continuous integration and deployment solution (using e.g. Gitlab CI and Docker).                                                                                                                                                                                                                                                                                                                                                 |
-| 5   | Cultural differences and ethics | You **recognize** and **take into account** cultural differences between project stakeholders and ethical aspects in software development.  | **Recognize**:  Recognition is based on theoretically substantiated awareness of cultural differences and ethical aspects in software engineering.<br>**Take into account:** Adapt your communication, working, and behavior styles to reflect project stakeholders from different cultures;<br>Address one of the standard Programming Ethical Guidelines (e.g., ACM Code of Ethics and Professional Conduct) in your work.                                     |
-| 6   | Requirements and Design         | You analyze (non-functional) requirements, elaborate (architectural) designs and validate them using **multiple types of test techniques**. | **Multiple types of test techniques:** You apply user acceptance testing and stakeholder feedback to validate the quality of the requirements. You evaluate the quality of the design (e.g., by testing or prototyping) taking into account the formulated quality properties like security and performance.                                                                                                                                                     |
-| 7   | Business processes              | You analyze and describe **simple** business processes that are **related** to your project.                                                | **Simple:** Involving stakeholders, predominantly sequential processes with one or two alternative paths.<br>**Related:** Business processes during which the software that you are developing will be used (business processes that the software must support by fully or partially automating them).<br>**or**<br>Business processes needed for the success of your software development project (e.g., product release, market release, financial assurance). |
-| 8   | Professional                    | You act in a **professional manner** during software development and learning.                                                              | **Professional manner:** You develop software as a team effort according to a prescribed software methodology and following team agreements. You are able to track your work progress and communicate your progress with the team.<br>You actively ask and apply feedback from stakeholders and advise them on the most optimal technical and design (architectural) solutions. You choose and substantiate solutions for a given problem.                       |
+| # | Name | Short description | Clarification |
+|---|------|-------------------|---------------|
+| 1 | Web application | You design and build **user-friendly, full-stack** web applications. | **User friendly:** You apply basic User experience testing and development techniques.<br>**Full-stack:** You design and build a full stack application using commonly accepted front end (JavaScript-based framework) and back end techniques (e.g. Object Relational Mapping) choosing and implementing relevant communication protocols and addressing asynchronous communication issues. |
+| 2 | Software quality | You use software **tooling and methodology** that continuously monitors and improve the software quality during software development. | **Tooling and methodology:** Carry out, monitor and report on unit integration, regression and system tests, with attention for security and performance aspects, as well as applying static code analysis and code reviews. |
+| 3 | Agile method | You **choose** and implement the most suitable agile software development method for your software project. | **Choose:** You are aware of the most popular agile methods and their underlying agile principles. Your choice of a method is motivated and based on well-defined selection criteria and context analyses. |
+| 4 | CI/CD | You **implement** a (semi)automated software release process that matches the needs of the project context. | **Implement:** You implement a continuous integration and deployment solution (using e.g. Gitlab CI and Docker). |
+| 5 | Cultural differences and ethics | You **recognize** and **take into account** cultural differences between project stakeholders and ethical aspects in software development. | **Recognize**:  Recognition is based on theoretically substantiated awareness of cultural differences and ethical aspects in software engineering.<br>**Take into account:** Adapt your communication, working, and behavior styles to reflect project stakeholders from different cultures;<br>Address one of the standard Programming Ethical Guidelines (e.g., ACM Code of Ethics and Professional Conduct) in your work. |
+| 6 | Requirements and Design | You analyze (non-functional) requirements, elaborate (architectural) designs and validate them using **multiple types of test techniques**. | **Multiple types of test techniques:** You apply user acceptance testing and stakeholder feedback to validate the quality of the requirements. You evaluate the quality of the design (e.g., by testing or prototyping) taking into account the formulated quality properties like security and performance. |
+| 7 | Business processes | You analyze and describe **simple** business processes that are **related** to your project. | **Simple:** Involving stakeholders, predominantly sequential processes with one or two alternative paths.<br>**Related:** Business processes during which the software that you are developing will be used (business processes that the software must support by fully or partially automating them).<br>**or**<br>Business processes needed for the success of your software development project (e.g., product release, market release, financial assurance). |
+| 8 | Professional | You act in a **professional manner** during software development and learning. | **Professional manner:** You develop software as a team effort according to a prescribed software methodology and following team agreements. You are able to track your work progress and communicate your progress with the team.<br>You actively ask and apply feedback from stakeholders and advise them on the most optimal technical and design (architectural) solutions. You choose and substantiate solutions for a given problem. |
 
 [⬆️ Back to Table of Contents](#table-of-contents)
 
@@ -106,9 +84,7 @@ There are several dimensions of cultural differences that have been identified i
   <img src="https://th.bing.com/th/id/OIP.zsdh1fNYDfej8H2BSWQVxQHaHo?pid=ImgDet&rs=1" width="300" alt="Hofstede's Cultural Dimensions">
 </p>
 
-*Hofstede's Cultural Dimensions*
-
-These dimensions can help us better understand and navigate cultural differences, but it's important to remember that they are not absolutes and that individuals within a culture may vary in their attitudes and behaviors (The 6 Dimensions Model of National Culture by Geert Hofstede, 2021).
+These dimensions can help us better understand and navigate cultural differences, but it's important to remember that they are not absolutes and that individuals within a culture may vary in their attitudes and behaviors.
 
 ### 3.1.4. Personal experiences with cultural differences
 
@@ -153,9 +129,7 @@ No unnecessary data is collected from our users, and the data that does get coll
 
 Our services are regularly and automatically tested, so that we can respond to any disruptions quickly. And a CI/CD pipeline has been established so that new features, bugfixes, and changes to documentation are brought online almost instantly. We hope this contributes to a good quality product for our users. All of our code is publicly available for everyone to inspect, improve, or to suggest ideas for improvement.
 
-![TICT](./images/tictcanvas.png) 
-
-*TICT for the group project (The Parking Pals)*
+![TICT](./images/tictcanvas.png)  
 
 [⬆️ Back to Table of Contents](#table-of-contents)
 
@@ -164,14 +138,13 @@ Ethical conflicts for The Parking Pals may occur in a few occasions. The most im
 
 
 ### 3.2.6 Ethics analysis for individual project
+> hetzelfde als voor groep
 
-![TICT](./images/TICT-individueel.png) 
-*TICT for my own project (Nickster)*
 
 ## 3.3. Agile methods
 
 ### 3.3.1 What is Agile?
-Agile is a term that describes approaches to software development that emphasize incremental delivery, team collaboration, continual planning, and continual learning. The different methodologies are used to establish different principles to guide a better approach to software development (ACM Ethics, 2022).
+Agile is a term that describes approaches to software development that emphasize incremental delivery, team collaboration, continual planning, and continual learning. The different methodologies are used to establish different principles to guide a better approach to software development.
 
 1. Customer satisfaction: Agile focuses on delivering value to the customer, and customer satisfaction is a top priority.
 
@@ -204,8 +177,6 @@ However, it is important to note that Scrum may not be the best fit for every pr
 <p align="center">
   <img src="https://th.bing.com/th/id/R.3896712f25b01b9a774a1d62798d4616?rik=hYV21pkHGoBYDg&riu=http%3a%2f%2fprojektwelten.projectplant.de%2fwp-content%2fuploads%2f2016%2f07%2fProjectPlant_ScrumMethode_Ueberblick.jpg&ehk=CWYVNaQXNpwqRs%2fRcabXxRcRU3lktrbwjrkjc3vB8So%3d&risl=&pid=ImgRaw&r=0" width="300" alt="Scrum">
 </p>
-
-*Scrum* 
 
 
 [⬆️ Back to Table of Contents](#table-of-contents)
@@ -240,7 +211,7 @@ Personally I have only worked with Scrum and I kept finding it the most compatib
 
 ### 3.4.1 Introduction
 Business processes refers to a series of interconnected tasks or activities that are designed to achieve a specific business goal using technology. It involves the use of various software, hardware, and networks to automate, optimize, test and streamline business operations.
-In conclusion, it plays a crucial role in defining, executing, and managing business processes, and businesses need to leverage technology to stay competitive and efficient in today's fast-paced digital economy (Pine, 2022).
+In conclusion, it plays a crucial role in defining, executing, and managing business processes, and businesses need to leverage technology to stay competitive and efficient in today's fast-paced digital economy.
 
 ### 3.4.2 The role of software applications in business processes
 The role of software applications in business processes is significant and diverse. Here are some of the ways software applications contribute to business processes:
@@ -254,24 +225,13 @@ The role of software applications in business processes is significant and diver
  - Data analytics: Software applications can provide insights into business processes through data analytics. This allows organizations to identify areas for improvement and make data-driven decisions.
 
  - Compliance: Software applications can help organizations comply with regulatory requirements by automating compliance processes and ensuring data accuracy and security.
- <img src="./images/mochawesome.png" width="600" height = "100" alt="Moch Awesome">
-
-
 
 In short, software applications play a crucial role in business processes, and organizations need to carefully select and implement the right software solutions to achieve their business goals and stay competitive in today's digital economy.
 
 ### 3.4.3 Examples of business processes
 add business process of project after done with testing
  
-
-[⬆️ Back to Table of Contents](#table-of-contents)
-
-## 3.5 Research Reports
- ### 3.5.1 Insecure Design
-[View my research report on Insecure Design](https://github.com/nickybreezy/Nickster/blob/main/researchreport.md)
- ### 3.5.2 The Impact of Cultural Differences and Ethics
-[View my research report on the impact of Cultural Differences and Ethics](/Culture%20differences%20RR.md)
-
+## 3.5 Security Risk: Insecure Design
 
 ## 3.6 CI/CD
 
@@ -282,46 +242,33 @@ Continuous Deployment/Delivery (CD) is the practice of automatically deploying c
 CI/CD allows teams to move quickly and confidently, knowing that changes to the code are being tested and deployed automatically. It helps to reduce the time and effort required to release software, while improving quality and reducing the risk of errors or bugs.
 
 ### 3.6.2 Applying CI/CD to my own project
-
+<div style="display:flex;justify-content:center;align-items:center;height:100%">
   <img src="./images/CI.png" alt="CI" style="max-width:100%;max-height:100%" />
+</div>
 
-*CI for Nickster*
 
-[⬆️ Back to Table of Contents](#table-of-contents)
-  <img src="./images/vercel-dashboard.png" alt="Vercel Dashboard" style="max-width:100%;max-height:100%" />
-
-*Vercel Dashboard*
-
+ 
 This vercel.json configuration file defines a build command that runs your tests and any other quality checks on your code.
 This process provides continuous integration by automatically building and testing my code changes before they are deployed to production. If the build fails, I can fix the issues and try again, ensuring that only high-quality code is deployed to production.
 <div style="display:flex;justify-content:center;align-items:center;height:100%">
   <img src="./images/CD.png" alt="CD" style="max-width:100%;max-height:100%" />
 </div>
 
-*CD for Nickster*
 
 The image I provided above is my continuous deployment (CD) for my individual project, specifically using GitHub Actions to automatically build and deploy my application to Vercel.
 Continuous Integration (CI) involves building and testing my code changes in a dedicated environment before merging them into the main codebase. This helps catch errors and bugs early in the development process.
 It was decided to be added to my workflow so that it would add more steps to my workflow file to run tests, linting, or other quality checks on my code before deploying to Vercel.
-To make sure everything goes swell, I have added tests to my project with various services. First of them is sort of connected with Vercel, called "Checkly", it is a tool that helps developers make sure their websites and apps work properly. It checks things like how fast my site loads, if certain features are working, and if there are any errors. It tells me if something goes wrong and helps me fix it quickly so that users have a good experience. 
-
-<div style="display:flex;justify-content:center;align-items:center;height:100%">
-  <img src="./images/vercel-dashboard.png" alt="Vercel Dashboard" style="max-width:100%;max-height:100%" />
-</div>
-
-*Checkly Dashboard for Nickster*
 
 [⬆️ Back to Table of Contents](#table-of-contents)
 
 ## 4. Group Project (The Parking Pals)
-
-  <img src="./images/the-parking-pals-logo.png" alt="Checkly Dashboard" style="max-width:100%;max-height:60%" />
-
-
+>insert logo here
+<img src="./images/the-parking-pals.png" alt="CD" style="max-width:100%;max-height:100%" />
 A company that owns parking garages gets a lot of complaints about the malfunctioning of the ticket machines. They also receive complaints about the queue being too long for machines, so you must wait a long time to pay. The client wishes for a solution to their previously mentioned problem. The preferred solution would make it so that the driver of the vehicle can drive into the parking garage without having to stand still. This would be possible by registering the license plate of the vehicle. The driver would then be able to pay via his/her mobile device so that they can leave the garage. It would reduce the amount of time a driver takes to park his/her vehicle in the garage and the same applies to leaving the garage. This would allow an increased traffic flow in and out of the garage and would therefore allow for an increased revenue stream. It would also provide a more convenient solution for the driver, which would result in a better reputation compared to alternative parking solutions. 
 
 [Azure DevOps for the process](https://dev.azure.com/parking-pals/Parking%20Pals%20App/_sprints/taskboard/Parking%20Pals%20App%20Team/Parking%20Pals%20App/)
 
+>add a gif quickly showing the website
 
 [⬆️ Back to Table of Contents](#table-of-contents)
 
@@ -340,12 +287,6 @@ Because we worked previously with C#, and because C# outperforms Java while havi
 
 ### 4.3 Software Design
 
-
-<div style="display:flex;justify-content:center;align-items:center;height:50%">
-  <img src="./images/userstories.png" alt="user stories" style="max-width:100%;max-height:78%" />
-</div>
-
-
 ### 4.4 Software Architecture
 ![Alt text](https://camo.githubusercontent.com/966bcef2778f624c6fc5ef8b7c2a7f5c6f11a2defb1c70ae7e7357f47777dd99/68747470733a2f2f692e6962622e636f2f734372364d68672f636f6e7461696e65722d6d6f64656c2e706e67)
 
@@ -356,29 +297,6 @@ As to be seen in the image, it has a lot of services, each to have their own api
 
 Each service has its own database and if it needs data from outside its domain to perform its function, it will contact the relevant service through the API gateway and request the needed data from the service that contains it. We have tried to minimize these dependencies in order to keep the different services as independent of each other as possible. In case the client application needs to collect data from the different domains it can contact each service separately to request the required data, combine it, and display it to the user.
 
-### 4.5 Behind the Project
-<div style="display:flex;justify-content:center;align-items:center;height:70%">
-  <img src="./images/backlog.png" alt="Checkly Dashboard" style="max-width:100%;max-height:60%" />
-  <img src="./images/board.png" alt="Checkly Dashboard" style="max-width:100%;max-height:60%" />
-</div>
-
-As seen in the image above, these are the "User Stories" in addition to a few "child tasks". As of today. they are not all completed but we are nearly done. In the image next to it you can see how we have sorted out the tasks with the numbers on the right showing how hard it is to complete the tasks by number of hours that need to be put in.
+> Add the configured/latest architecture at the end of the project when everything is done 
 
 ## 5. Individual Project (Nickster)
-
-## 6. Sources
-- ACM Ethics. (2022, June 8). Software Engineering Code - ACM Ethics. ACM Ethics - the Official Site of the Association for Computing Machinery’s Committee on Professional Ethics. 
- - Hamilton, T. (2023). Agile Vs. Scrum: Key Difference Between Methodology. Guru99. https://www.guru99.com/agile-vs-scrum.html
-https://ethics.acm.org/code-of-ethics/software-engineering-code/
-- Peek, S. (2023). What Is Agile Scrum Methodology? Business News Daily. https://www.businessnewsdaily.com/4987-what-is-agile-scrum-methodology.html
-- Pine, O. (2022). The Top 10 Business Processes to Automate for Maximum Efficiency. G7 Tech Services. https://g7techservices.com/news/the-top-10-business-processes-to-automate-for-maximum-efficiency/#:~:text=The%20top%2010%20business%20processes%20to%20automate%20are%20customer%20service,%2C%20document%20management%2C%20and%20analytics.
- - Taras, V. (2021, September 17). Research: How Cultural Differences Can Impact Global Teams. Harvard Business Review. https://hbr.org/2021/06/research-how-cultural-differences-can-impact-global-teams
- - The 6 dimensions model of national culture by Geert Hofstede. (2021, February 20). Geert Hofstede. https://geerthofstede.com/culture-geert-hofstede-gert-jan-hofstede/6d-model-of-national-culture/
- - Vilmate, & Vilmate. (2023). Benefits of a microservices architecture. Nearshore Software Development Company in Ukraine - VILMATE. https://vilmate.com/blog/benefits-of-microservices-architecture/
- - What is business process automation? (n.d.). https://www.redhat.com/en/topics/automation/what-is-business-process-automation#:~:text=Business%20process%20automation%20(BPA)%20is,the%20needs%20of%20an%20organization.
- - What is CI/CD? (n.d.). https://www.redhat.com/en/topics/devops/what-is-ci-cd#:~:text=CI%2FCD%20is%20a%20method,continuous%20delivery%2C%20and%20continuous%20deployment.
- - What Is CI/CD and How Does It Work? | Synopsys. (n.d.). https://www.synopsys.com/glossary/what-is-cicd.html
- - Yılan, G. (2022, January 7). Ethics for Software Engineers - Gamze Yılan - Medium. Medium. https://gamzeyilan1.medium.com/ethics-for-software-engineers-4b0d91b6f238
-
-
-
