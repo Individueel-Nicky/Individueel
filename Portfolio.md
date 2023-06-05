@@ -50,6 +50,11 @@ Teachers: Samuil Angelov and Jean Paul Ligthart
     - [4.4 Software Architecture](#44-software-architecture)
     - [4.5 Behind the Project](#45-behind-the-project)
   - [5. Individual Project (Nickster)](#5-individual-project-nickster)
+    - [5.1 Design choice](#51-design-choice)
+    - [5.2 Software Design](#52-software-design)
+    - [5.3 Usability Test](#53-usability-test)
+    - [5.1 UX design process](#51-ux-design-process)
+    - [5.2 Different types of UX testing](#52-different-types-of-ux-testing)
   - [6. Sources](#6-sources)
 
 ## 1. Introduction
@@ -261,7 +266,12 @@ The role of software applications in business processes is significant and diver
 In short, software applications play a crucial role in business processes, and organizations need to carefully select and implement the right software solutions to achieve their business goals and stay competitive in today's digital economy.
 
 ### 3.4.3 Examples of business processes
-add business process of project after done with testing
+
+Before a new version of a software program can be accepted as being prepared for deployment, it must first meet a number of requirements. A product release process can help with it. It is a useful illustration of an operating procedure.
+
+An example of a release procedure that Nickster might use is shown below. The customer, the development, quality assurance, and marketing departments are all participants in this process. There are several steps in the process that must be completed in order to guarantee a high-quality, secure, and reliable release. The process includes four subprocesses in addition to the standard tasks: user acceptance testing, security analysis, release preparation for deployment, and final quality review.
+
+ <img src="./images/BPMN.png" alt="user stories" style="max-width:100%;max-height:78%" />
  
 
 [⬆️ Back to Table of Contents](#table-of-contents)
@@ -339,12 +349,9 @@ For the learning outcomes, it is specified that we use a JavaScript front-end fr
 Because we worked previously with C#, and because C# outperforms Java while having the same functionalities. We have selected C# Asp.net 
 
 ### 4.3 Software Design
+[⬆️ Back to Table of Contents](#table-of-contents)
 
-
-<div style="display:flex;justify-content:center;align-items:center;height:50%">
   <img src="./images/userstories.png" alt="user stories" style="max-width:100%;max-height:78%" />
-</div>
-
 
 ### 4.4 Software Architecture
 ![Alt text](https://camo.githubusercontent.com/966bcef2778f624c6fc5ef8b7c2a7f5c6f11a2defb1c70ae7e7357f47777dd99/68747470733a2f2f692e6962622e636f2f734372364d68672f636f6e7461696e65722d6d6f64656c2e706e67)
@@ -366,8 +373,70 @@ As seen in the image above, these are the "User Stories" in addition to a few "c
 
 ## 5. Individual Project (Nickster)
 
+<img src="./images/nicksterlogo.png" alt="Checkly Dashboard" style="max-width:100%;max-height:60%" />
+
+
+Introducing Nickster - your gateway to a personalized and immersive music experience. With our innovative application, you can seamlessly connect to your Spotify account and unlock a world of musical possibilities. Effortlessly login and gain instant access to your meticulously curated playlists, allowing you to rediscover your favorite tracks and dive into new musical adventures. But that's not all! Our app goes beyond just playlist management – you can search for any song, explore its details, and even download it for offline listening. Not to mention, you can delve into the world of your favorite artists, discovering their discographies, reading their biographies, and downloading their tracks directly to your device. Get ready to elevate your music journey to new heights with our all-in-one music app.
+
+
+
+[⬆️ Back to Table of Contents](#table-of-contents)
+
+### 5.1 Design choice
+- Front end, React  
+
+- Back end, Node.js
+
+- Database, MySql
+
+
+### 5.2 Software Design
+[⬆️ Back to Table of Contents](#table-of-contents)
+
+  <img src="./images/project.png" alt="user stories" style="max-width:100%;max-height:78%" />
+
+[⬆️ Back to Table of Contents](#table-of-contents)
+
+### 5.3 Usability Test
+
+It is an important process in the design and development of products, websites, or applications. It involves evaluating the user experience and usability of a product by observing how real users interact with it. Here are some reasons why usability testing is necessary:
+
+  1. Identify usability issues: it helps uncover problems or issues that users may encounter while using a product, by observing users' interactions and their feedback, and their overall experience, designers can identify areas where the product can be improved and made more user-friendly.
+
+  2. Improve user satisfaction: Usability testing allows designers to understand users' needs, preferences, and expectations. By addressing these insights, designers can make necessary adjustments to enhance the overall user experience. This leads to increased user satisfaction and helps build positive relationships between users and the product.
+
+  3. Enhance efficiency and effectiveness: Usability testing helps identify any hurdles or roadblocks that may hinder users' ability to complete tasks efficiently. By analyzing users' behavior, designers can streamline processes, simplify navigation, and optimize the product's workflow. This can improve users' efficiency in accomplishing tasks and increase their productivity.
+
+  4. Reduce development costs: Early identification and resolution of usability issues through testing can save significant costs in the long run. Fixing usability problems during the design and development phase is usually less expensive compared to making changes after the product is launched. Usability testing helps detect issues early, allowing designers to make necessary adjustments before the product is finalized.
+
+  5. Gain a competitive edge: Usability is a crucial factor in differentiating products in the market. By conducting usability testing, designers can gather insights about users' needs and preferences, which can be used to create a more user-friendly and intuitive product. A well-designed and highly usable product can give a competitive advantage over similar products in the market.
+
+Overall, usability testing ensures that the final product meets users' expectations, is intuitive to use, and provides a positive user experience. By involving real users in the testing process, designers can gain valuable insights to refine and optimize their designs, resulting in better products that meet users' needs effectively.
+
+### 5.1 UX design process
+The UX design process involves several steps that take you from an idea to the launch of a product. The steps include research, defining the user problem, designing, prototyping, validating, building, QA testing, and finally launching the product. It's important to note that these steps are not always strictly linear, as you may discover issues or shortcomings during the process. In such cases, you might need to revisit previous stages like design or problem definition to develop a new solution or reassess the user challenge at hand (Bruton, 2023).   
+
+![Alt text](https://www.uxdesigninstitute.com/blog/wp-content/uploads/2021/05/ux-process.png)
+
+### 5.2 Different types of UX testing
+1. Usability Testing: Observing users to identify issues.
+2. A/B Testing: Comparing versions to determine performance.
+3. Surveys and Questionnaires: Collecting user feedback.
+4. Eye Tracking: Analyzing visual attention and behavior.
+5. Click Testing: Assessing effectiveness of design elements.
+6. Card Sorting: Organizing content for information   architecture.
+7. Remote Testing: Conducting tests remotely.
+8. Guerrilla Testing: Gathering quick feedback in informal settings.
+9. Manual Testing: Conducted by human testers who interact with the product or prototype, assessing usability, functionality, and user experience.
+10. 
+    
+  
+
+
+
 ## 6. Sources
-- ACM Ethics. (2022, June 8). Software Engineering Code - ACM Ethics. ACM Ethics - the Official Site of the Association for Computing Machinery’s Committee on Professional Ethics. 
+- ACM Ethics. (2022, June 8). Software Engineering Code - ACM Ethics. ACM Ethics - the Official Site of the Association for Computing Machinery’s Committee on Professional Ethics.
+- Bruton, L. (2023, 27 februari). What is the UX design process? A step-by-step guide - UX Design Institute. UX Design Institute. https://www.uxdesigninstitute.com/blog/ux-design-process/ 
  - Hamilton, T. (2023). Agile Vs. Scrum: Key Difference Between Methodology. Guru99. https://www.guru99.com/agile-vs-scrum.html
 https://ethics.acm.org/code-of-ethics/software-engineering-code/
 - Peek, S. (2023). What Is Agile Scrum Methodology? Business News Daily. https://www.businessnewsdaily.com/4987-what-is-agile-scrum-methodology.html
