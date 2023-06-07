@@ -42,7 +42,7 @@ Teachers: Samuil Angelov and Jean Paul Ligthart
     - [3.5.2 The Impact of Cultural Differences and Ethics](#352-the-impact-of-cultural-differences-and-ethics)
   - [3.6 CI/CD](#36-cicd)
     - [3.6.1 What is CI/CD](#361-what-is-cicd)
-    - [3.6.2 Applying CI/CD to my own project](#362-applying-cicd-to-my-own-project)
+    - [3.6.2 Applying CI/CD and Tesing to my own project](#362-applying-cicd-and-tesing-to-my-own-project)
   - [4. Group Project (The Parking Pals)](#4-group-project-the-parking-pals)
     - [4.1 Strategy](#41-strategy)
     - [4.2 Design choice](#42-design-choice)
@@ -55,6 +55,8 @@ Teachers: Samuil Angelov and Jean Paul Ligthart
     - [5.3 Usability Test](#53-usability-test)
     - [5.1 UX design process](#51-ux-design-process)
     - [5.2 Different types of UX testing](#52-different-types-of-ux-testing)
+    - [5.3 Manual testing my own project](#53-manual-testing-my-own-project)
+        - [Conclusion](#conclusion)
   - [6. Sources](#6-sources)
 
 ## 1. Introduction
@@ -291,7 +293,7 @@ Continuous Integration (CI) is the practice of automatically building and testin
 Continuous Deployment/Delivery (CD) is the practice of automatically deploying code changes to production servers once they have passed the tests in the CI process. This ensures that the latest version of the software is always available to users, and reduces the risk of human error in the deployment process.
 CI/CD allows teams to move quickly and confidently, knowing that changes to the code are being tested and deployed automatically. It helps to reduce the time and effort required to release software, while improving quality and reducing the risk of errors or bugs.
 
-### 3.6.2 Applying CI/CD to my own project
+### 3.6.2 Applying CI/CD and Tesing to my own project
 
   <img src="./images/CI.png" alt="CI" style="max-width:100%;max-height:100%" />
 
@@ -428,9 +430,25 @@ The UX design process involves several steps that take you from an idea to the l
 7. Remote Testing: Conducting tests remotely.
 8. Guerrilla Testing: Gathering quick feedback in informal settings.
 9. Manual Testing: Conducted by human testers who interact with the product or prototype, assessing usability, functionality, and user experience.
-10. 
+
+### 5.3 Manual testing my own project
+
+Following the research I have done prior, I have chosen to conduct a Manual Testing with my fellow partner, Laura Wolters. She was asked to try to complete the following task: Search any song you like, then play and download, all while delivering any remarks that she thinks of. From there on she had "criticized" the following points:
+1. At first she thought the Sidebar took a lot of space on the screen and it was hard to find where she could minimize it. 
+2. Furthermore when she found where to search for the track, it was pretty hard to view all the songs that were listed in the "cards". 
+3. Finally when she had downloaded a song it was in her opinion difficult to recognize if she had downloaded the song at all.  
+
+##### Conclusion
+I have addressed all the concerns she raised regarding the application:
+
+1. Firstly, I have made significant improvements to the Sidebar to minimize its screen space. It is now much more streamlined and less obtrusive, making it easier to navigate and locate the minimize option.
+
+2. Additionally, I have enhanced the look of the tracks and albums by making the show one-by-one vertically if viewed on a mobile-size screen.
+
+3. Lastly, I have implemented changes to enhance the download feature. Now, when a song is successfully downloaded, there is a clear indication to confirm the download status. This improvement ensures that users can easily recognize if a song has been downloaded or not.
+
+Overall, I have made significant updates to the application, addressing the issues she highlighted and ensuring a more user-friendly and intuitive experience.
     
-  
 
 
 
