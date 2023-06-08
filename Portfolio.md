@@ -327,7 +327,17 @@ To make sure everything goes swell, I have added tests to my project with variou
  Dashboard for Nickster*
  
 
- #### Code scans
+ ### 3.7 Code scans
+
+#### 3.7.1 Why are code scans crucial?
+Code scans are essential for the creation of software because they guarantee compliance, quality, and security. By resolving potential flaws before they can be exploited, these scans assist in locating and preventing security problems. By identifying coding errors, defects, and performance bottlenecks, they also enhance the quality and maintainability of the code. Early problem discovery during development lowers costs and averts serious complications in production. Code scans also uphold best practices and coding standards, promoting cooperation and code uniformity. Finally, they resolve inefficiencies to optimize software performance. In general, code scans help to produce reliable, secure, and high-quality software.
+
+#### 3.7.2 Code scanning my own project
+
+##### Google Lighthouse 
+
+<img src="./images/lighthouse.png" alt="Lighthouse" style="max-width:60%;max-height:100%" />
+
 
 
  
