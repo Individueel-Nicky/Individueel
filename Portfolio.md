@@ -42,7 +42,9 @@ Teachers: Samuil Angelov and Jean Paul Ligthart
     - [3.5.2 The Impact of Cultural Differences and Ethics](#352-the-impact-of-cultural-differences-and-ethics)
   - [3.6 CI/CD](#36-cicd)
     - [3.6.1 What is CI/CD](#361-what-is-cicd)
-    - [3.6.2 Applying CI/CD and Tesing to my own project](#362-applying-cicd-and-tesing-to-my-own-project)
+    - [3.6.2 Applying CI/CD and Testing to my own project](#362-applying-cicd-and-testing-to-my-own-project)
+      - [CI/CD](#cicd)
+      - [Code scans](#code-scans)
   - [4. Group Project (The Parking Pals)](#4-group-project-the-parking-pals)
     - [4.1 Strategy](#41-strategy)
     - [4.2 Design choice](#42-design-choice)
@@ -293,16 +295,17 @@ Continuous Integration (CI) is the practice of automatically building and testin
 Continuous Deployment/Delivery (CD) is the practice of automatically deploying code changes to production servers once they have passed the tests in the CI process. This ensures that the latest version of the software is always available to users, and reduces the risk of human error in the deployment process.
 CI/CD allows teams to move quickly and confidently, knowing that changes to the code are being tested and deployed automatically. It helps to reduce the time and effort required to release software, while improving quality and reducing the risk of errors or bugs.
 
-### 3.6.2 Applying CI/CD and Tesing to my own project
-
+### 3.6.2 Applying CI/CD and Testing to my own project
+#### CI/CD
   <img src="./images/CI.png" alt="CI" style="max-width:100%;max-height:100%" />
 
 *CI for Nickster*
+ <img src="./images/mochawesome.png" alt="Vercel Dashboard" style="max-width:100%;max-height:100%" />
 
 [⬆️ Back to Table of Contents](#table-of-contents)
-  <img src="./images/vercel-dashboard.png" alt="Vercel Dashboard" style="max-width:100%;max-height:100%" />
+  <img src="./images/checkly-dashboard.png" alt="Vercel Dashboard" style="max-width:100%;max-height:100%" />
 
-*Vercel Dashboard*
+*Checkly Dashboard*
 
 This vercel.json configuration file defines a build command that runs your tests and any other quality checks on your code.
 This process provides continuous integration by automatically building and testing my code changes before they are deployed to production. If the build fails, I can fix the issues and try again, ensuring that only high-quality code is deployed to production.
@@ -320,9 +323,14 @@ To make sure everything goes swell, I have added tests to my project with variou
 <div style="display:flex;justify-content:center;align-items:center;height:100%">
   <img src="./images/vercel-dashboard.png" alt="Vercel Dashboard" style="max-width:100%;max-height:100%" />
 </div>
+*Vercel
+ Dashboard for Nickster*
+ 
 
-*Checkly Dashboard for Nickster*
+ #### Code scans
 
+
+ 
 [⬆️ Back to Table of Contents](#table-of-contents)
 
 ## 4. Group Project (The Parking Pals)
@@ -421,7 +429,7 @@ The UX design process involves several steps that take you from an idea to the l
 ![Alt text](https://www.uxdesigninstitute.com/blog/wp-content/uploads/2021/05/ux-process.png)
 
 ### 5.2 Different types of UX testing
-1. Usability Testing: Observing users to identify issues.
+1. Usability Testing: Conducted by human testers who interact with the product or prototype, assessing usability, functionality, and user experience.
 2. A/B Testing: Comparing versions to determine performance.
 3. Surveys and Questionnaires: Collecting user feedback.
 4. Eye Tracking: Analyzing visual attention and behavior.
@@ -429,7 +437,6 @@ The UX design process involves several steps that take you from an idea to the l
 6. Card Sorting: Organizing content for information   architecture.
 7. Remote Testing: Conducting tests remotely.
 8. Guerrilla Testing: Gathering quick feedback in informal settings.
-9. Manual Testing: Conducted by human testers who interact with the product or prototype, assessing usability, functionality, and user experience.
 
 ### 5.3 Manual testing my own project
 
